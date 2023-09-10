@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(243, 183, 183);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: rgba(85, 4, 4, 0.788);
+    color: white;
+    font-weight: bold;
+}
+.app_name{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+.items{
+    display: flex;
+}
+.items li{
+  list-style: none;
+    margin-right: 2rem;
+}
+.btn{
+    margin-left: 2rem;
+    padding: 5px;
+    background-color: seagreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
