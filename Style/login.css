@@ -10,7 +10,7 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 5px;
     padding: 20px;
-    color: #fff;
+    color: #cac4c4;
     position: relative;
 }
 
@@ -37,6 +37,11 @@ h1 {
 
 form {
     width: 80%;
+}
+label {
+    display: block;
+    margin-top: 15px;
+    color: #cac4c4;
 }
 
 input[type="text"],
@@ -97,7 +102,7 @@ button a {
     font-size: 18px;
 }
 .not a {
-    color: #555;
+    color: #fff;
     font-weight: bold;
     text-decoration: none;
 }
