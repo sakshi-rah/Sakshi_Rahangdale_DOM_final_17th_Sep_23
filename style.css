@@ -44,6 +44,12 @@ select option{
     margin-right: 2rem;
     color: white;
 }
+.items a:hover{
+    font-size: 1rem;
+    transition: all 0.4s 0s linear;
+    transform: scale(1.2);
+    border-bottom: 2px solid rgb(245, 197, 41) ;
+}
 .btn{
     margin-left: 2rem;
     padding: 6px;
