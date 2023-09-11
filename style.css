@@ -4,7 +4,7 @@
     box-sizing: border-box;
     background-color: #13131A;
 }
-
+/*navbar css*/
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -65,7 +65,11 @@ select option {
     font-weight: bold;
     cursor: pointer;
 }
-
+.btn a{
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+}
 .btn:hover {
     background-color: rgb(246, 212, 100);
 }
@@ -76,4 +80,4 @@ select option {
     }
 }
 
-/*Reservation*/
+/*Signup*/
