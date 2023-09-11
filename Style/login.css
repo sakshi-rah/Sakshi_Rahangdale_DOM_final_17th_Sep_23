@@ -1,14 +1,15 @@
 /*Signup*/
 body {
     background-color: #13131A;
+    font-family: sans-serif;
 }
 
 .container {
-    width: 500px;
+    width: 450px;
     margin: 50px auto;
     background-color: #fff;
     border-radius: 5px;
-    padding: 25px;
+    padding: 20px;
     position: relative;
 }
 
@@ -91,4 +92,12 @@ button a {
     text-decoration: none;
     color: #fff;
     font-size: 18px;
+}
+.not a {
+    color: rgb(245, 197, 41);
+    font-weight: bold;
+    text-decoration: none;
+}
+.not{
+    text-align: center;
 }
