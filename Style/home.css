@@ -23,7 +23,7 @@ nav {
 
 .app_name {
     font-size: 1.5rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 
 .items {
@@ -60,7 +60,7 @@ select option {
 }
 
 .btn {
-    margin-left: 2rem;
+    margin-right: 1rem;
     padding: 6px;
     background-color: rgb(245, 197, 41);
     color: white;
