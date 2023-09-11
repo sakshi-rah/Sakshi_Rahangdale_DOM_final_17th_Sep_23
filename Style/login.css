@@ -1,0 +1,80 @@
+/*Signup*/
+body{
+    background-color: #13131A;
+}
+.container {
+    width: 500px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+}
+#loginForm{
+    margin: auto;
+}
+h1 {
+    text-align: center;
+    color: #555;
+    margin: 0%;
+}
+
+form {
+    width: 80%;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: rgb(245, 197, 41);
+    outline: none;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+}
+
+.success {
+    color: green;
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(245, 197, 41);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(246, 212, 100);
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}

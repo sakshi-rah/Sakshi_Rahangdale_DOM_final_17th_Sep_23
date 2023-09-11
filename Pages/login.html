@@ -3,9 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../Style/login.css">
     <title>Login/Signup</title>
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Login </h1>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <!--Error Message-->
+            <span class="error" id="usernameError"></span>
+            <!--Success Message-->
+            <span class="success" id="usernameSuccess"></span>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <!--Password Error Message-->
+            <span class="error" id="passwordError"></span>
+            <!--Success Message-->
+            <span class="success" id="passwordSuccess"></span>
+
+            <button type="submit"><a href="#">Login</a></button>
+
+        </form>
+    </div>
+
+    <script>
+        document.getElementById("loginForm").addEventListener("submit", function (event) {
+            var isValid = true;
+
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+
+            var usernameError = document.getElementById("usernameError");
+            usernameError.textContent = " ";
+            var usernameSuccess = document.getElementById("usernameSuccess");
+
+            var passwordError = document.getElementById("passwordError");
+            passwordError.textContent = " ";
+            var passwordSuccess = document.getAnimations("passwordSuccess");
+
+            //validation for username
+            if (username.trim() === " ") {
+                usernameError.textContent = "Enter your correct username";
+                isValid = false;
+            } else {
+                usernameSuccess.textContent = "Correct Username";
+            }
+
+            //validation for Password
+            if (password.length < 8) {
+                passwordError.textContent = "Password must be at least 8 characters";
+                isValid = false;
+            } else {
+                passwordSuccess.textContent = "Password verified";
+            }
+        })
+    </script>
 </body>
 </html>
