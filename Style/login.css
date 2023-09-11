@@ -1,7 +1,8 @@
 /*Signup*/
-body{
+body {
     background-color: #13131A;
 }
+
 .container {
     width: 500px;
     margin: 50px auto;
@@ -10,7 +11,8 @@ body{
     padding: 25px;
     position: relative;
 }
-.xmark{
+
+.xmark {
     position: absolute;
     right: 20px;
     top: 20px;
@@ -19,9 +21,10 @@ body{
     cursor: pointer;
 }
 
-#loginForm{
+#loginForm {
     margin: auto;
 }
+
 h1 {
     text-align: center;
     color: #555;
@@ -83,7 +86,8 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: rgb(246, 212, 100);
 }
-button a{
+
+button a {
     text-decoration: none;
     color: #fff;
     font-size: 18px;

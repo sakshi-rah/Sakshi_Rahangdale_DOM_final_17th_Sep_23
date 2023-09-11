@@ -3,9 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: #13131A;
 }
+
 /*navbar css*/
 .navbar {
     display: flex;
@@ -67,11 +69,13 @@ select option {
     font-weight: bold;
     cursor: pointer;
 }
-.btn a{
+
+.btn a {
     text-decoration: none;
     color: white;
     background-color: transparent;
 }
+
 .btn:hover {
     background-color: rgb(246, 212, 100);
 }
@@ -81,4 +85,3 @@ select option {
         display: none;
     }
 }
-
