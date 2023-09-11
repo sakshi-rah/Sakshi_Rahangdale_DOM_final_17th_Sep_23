@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+body{
     background-color: #13131A;
 }
 /*navbar css*/
@@ -80,4 +82,3 @@ select option {
     }
 }
 
-/*Signup*/
