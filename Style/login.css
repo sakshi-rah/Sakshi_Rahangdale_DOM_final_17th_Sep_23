@@ -7,9 +7,10 @@ body {
 .container {
     width: 450px;
     margin: 50px auto;
-    background-color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 5px;
     padding: 20px;
+    color: #fff;
     position: relative;
 }
 
@@ -20,22 +21,23 @@ body {
     font-weight: bold;
     font-size: large;
     cursor: pointer;
+    color: #fff;
 }
 
 #loginForm {
     margin: auto;
+    margin-top: 20px;
 }
 
 h1 {
     text-align: center;
-    color: #555;
+    color: #fff;
     margin: 0%;
 }
 
 form {
     width: 80%;
 }
-
 
 input[type="text"],
 input[type="email"],
@@ -52,6 +54,7 @@ input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="password"]:focus {
     border-color: rgb(245, 197, 41);
+    border: 2px solid rgb(245, 197, 41);
     outline: none;
 }
 
