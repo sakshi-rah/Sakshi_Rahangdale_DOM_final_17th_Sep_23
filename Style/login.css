@@ -94,9 +94,14 @@ button a {
     font-size: 18px;
 }
 .not a {
-    color: rgb(245, 197, 41);
+    color: #555;
     font-weight: bold;
     text-decoration: none;
+}
+.not a:hover{
+    transition: all 0s 0.1s linear;
+    transform: scale(1.20);
+    border-bottom: 3px solid rgb(245, 197, 41);
 }
 .not{
     text-align: center;
