@@ -118,3 +118,24 @@ button a {
     transform: scale(1.20);
     border-bottom: 3px solid rgb(245, 197, 41);
 }
+@media (max-width: 500px) {
+    .container {
+        width: 300px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+        width: 90%;
+    }
+
+    button[type="submit"] {
+        width: 60%;
+    }
+    p{
+        font-size: 15px;
+    }
+    .form-check-label {
+        font-size: 15px;
+    }
+}

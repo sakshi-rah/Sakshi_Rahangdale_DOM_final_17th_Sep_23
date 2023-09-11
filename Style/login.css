@@ -38,6 +38,7 @@ h1 {
 form {
     width: 80%;
 }
+
 label {
     display: block;
     margin-top: 15px;
@@ -101,16 +102,35 @@ button a {
     color: #fff;
     font-size: 18px;
 }
+
 .not a {
     color: #fff;
     font-weight: bold;
     text-decoration: none;
 }
-.not a:hover{
+
+.not a:hover {
     transition: all 0s 0.1s linear;
     transform: scale(1.20);
     border-bottom: 3px solid rgb(245, 197, 41);
 }
-.not{
+
+.not {
     text-align: center;
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 300px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+        width: 90%;
+    }
+
+    button[type="submit"] {
+        width: 60%;
+    }
 }
