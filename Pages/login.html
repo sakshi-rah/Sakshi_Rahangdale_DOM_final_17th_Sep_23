@@ -1,35 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./../Style/login.css">
-    <title>Login/Signup</title>
-</head>
-<body>
-    <div class="container">
-        <h1>Login </h1>
-        <form id="loginForm">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
-            <!--Error Message-->
-            <span class="error" id="usernameError"></span>
-            <!--Success Message-->
-            <span class="success" id="usernameSuccess"></span>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./../Style/login.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Login/Signup</title>
+    </head>
+    <body>
 
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
-            <!--Password Error Message-->
-            <span class="error" id="passwordError"></span>
-            <!--Success Message-->
-            <span class="success" id="passwordSuccess"></span>
+        <div class="container">
+            <a href="./../index.html"> <i class="fas fa-xmark xmark"></i></a>
+            <h1>Login </h1>
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <!--Error Message-->
+                <span class="error" id="usernameError"></span>
+                <!--Success Message-->
+                <span class="success" id="usernameSuccess"></span>
 
-            <button type="submit"><a href="#">Login</a></button>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <!--Password Error Message-->
+                <span class="error" id="passwordError"></span>
+                <!--Success Message-->
+                <span class="success" id="passwordSuccess"></span>
 
-        </form>
-    </div>
+                <button type="submit"><a href="#">Login</a></button>
 
-    <script>
+            </form>
+        </div>
+
+        <script>
         document.getElementById("loginForm").addEventListener("submit", function (event) {
             var isValid = true;
 
@@ -61,5 +67,5 @@
             }
         })
     </script>
-</body>
+    </body>
 </html>

@@ -7,8 +7,18 @@ body{
     margin: 50px auto;
     background-color: #fff;
     border-radius: 5px;
-    padding: 20px;
+    padding: 25px;
+    position: relative;
 }
+.xmark{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+}
+
 #loginForm{
     margin: auto;
 }
