@@ -7,6 +7,8 @@
 body {
     background-color: #13131A;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+
 }
 
 /*navbar css*/
@@ -95,6 +97,7 @@ select option {
     }
 
 }
+
 /*home page*/
 .hero {
     background-image: url('./../Images/restaurant-image.jpg');
@@ -106,6 +109,7 @@ select option {
     align-items: center;
     text-align: center;
     color: #fff;
+    margin-bottom: 50px;
 }
 
 .hero-content {
@@ -115,10 +119,11 @@ select option {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-.hero-content p{
+.hero-content p {
     max-width: 450px;
     margin: auto;
 }
+
 .hero h1 {
     font-size: 36px;
     margin-bottom: 10px;
@@ -138,6 +143,7 @@ select option {
     border-radius: 5px;
     font-weight: bold;
 }
+
 @media (max-width: 768px) {
     .hero {
         height: 300px;
@@ -156,5 +162,90 @@ select option {
         font-size: 16px;
     }
 
-    
+}
+
+/* about section */
+
+#about {
+    padding: 20px 0;
+}
+
+.about-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+#about h2 {
+    font-size: 2.3rem;
+}
+
+#about p {
+    font-size: 1.2rem;
+    color: #cfc9c9;
+    margin-top: 20px;
+}
+
+.book {
+    text-align: center;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+.book span {
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+#about-h {
+    text-align: center;
+    margin: auto;
+    font-size: 2rem;
+    width: 150px;
+}
+
+#about-h:hover {
+    transition: all 0.4s 0s linear;
+    transform: scale(1.2);
+    border-bottom: 2px solid rgb(245, 197, 41);
+    cursor: pointer;
+}
+
+.about-img {
+    flex: 1 1 300px;
+    padding: 30px;
+    transform: translateX(150%);
+    animation: about-img-animation 1s ease-in-out forwards;
+}
+
+@keyframes about-img-animation {
+    100% {
+        transform: translate(0);
+    }
+}
+
+.about-text {
+    flex: 1 1 400px;
+    padding: 30px;
+    margin: auto;
+    transform: translate(-150px);
+    animation: about-text-animation 1s ease-in-out forwards;
+
+}
+
+@keyframes about-text-animation {
+    100% {
+        transform: translate(0);
+    }
+}
+
+.about-img img {
+    display: block;
+    height: 500px;
+    max-width: 100%;
+    margin: auto;
+    object-fit: cover;
+    object-position: right;
+
 }
