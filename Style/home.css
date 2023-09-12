@@ -363,7 +363,7 @@ section {
 .contact-info-icon {
     height: 70px;
     width: 70px;
-    background-color: black;
+    background-color: rgb(139, 138, 138);
     text-align: center;
     border-radius: 50%;
 }
