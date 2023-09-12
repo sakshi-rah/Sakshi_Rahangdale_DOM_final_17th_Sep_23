@@ -243,9 +243,15 @@ select option {
 .about-img img {
     display: block;
     height: 500px;
+    border-radius: 10px;
     max-width: 100%;
     margin: auto;
     object-fit: cover;
     object-position: right;
+
+}
+.about-img img:hover {
+    transition: all 0.5s 0.1s ease-out;
+    transform: scale(1.1);
 
 }
