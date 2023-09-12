@@ -176,9 +176,14 @@ select option {
     justify-content: space-around;
 
 }
+#about h1 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
 
 #about h2 {
-    font-size: 2.3rem;
+    font-size: 1.9rem;
+    font-weight: 300;
 }
 
 #about p {
@@ -228,7 +233,7 @@ select option {
 .about-text {
     flex: 1 1 400px;
     padding: 30px;
-    margin: auto;
+    margin-top: 3rem;
     transform: translate(-150px);
     animation: about-text-animation 1s ease-in-out forwards;
 
@@ -250,6 +255,7 @@ select option {
     object-position: right;
 
 }
+
 .about-img img:hover {
     transition: all 0.5s 0.1s ease-out;
     transform: scale(1.1);
