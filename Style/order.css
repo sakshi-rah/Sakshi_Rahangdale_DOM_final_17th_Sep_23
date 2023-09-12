@@ -67,11 +67,11 @@ main {
     padding: 2rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .container {
         display: flex;
         flex-direction: column;
-        max-width: 500px;
+        max-width: 600px;
         height: 450px;
         gap: 20px;
         margin: auto;
@@ -79,7 +79,7 @@ main {
         padding: 20px;
     }
     .food-img {
-        font-size: 80px;
+        font-size: 50px;
         display: block;
     }
     .food-item {
@@ -89,6 +89,26 @@ main {
         width: 100%;
         height: 160px;
         border-bottom: 1px solid #d2d2d2;
+    }
+    .food-desc-head {
+        font-size: 20px;
+        color: #fff;
+        font-weight: 200;
+    }
+    
+    .food-desc-materials {
+        color: #bfbbbb;
+        margin: 5px 0px;
+        font-size: 0.9rem;
+    }
+    
+    .food-desc-price {
+        color: rgb(245, 197, 41);
+        font-size: 18px;
+    }
+    .checkout-container {
+        width: 85%;
+    
     }
     
 }
