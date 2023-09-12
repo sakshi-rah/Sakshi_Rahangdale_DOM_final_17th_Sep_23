@@ -197,9 +197,19 @@ select option {
     color: #fff;
     margin-top: 2rem;
 }
-
-.book span {
-    font-size: 1.1rem;
+.book h3{
+    border:  1px solid #fff;
+    width: 15rem;
+    padding: 10px;
+    margin: auto;
+}
+.book h3:hover{
+    background-color: #fff;
+    color: #13131A;
+    transition: all 0.6s 0.1s linear;
+}
+.book p {
+    font-size: 1.5rem;
     color: #fff;
 }
 
