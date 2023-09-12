@@ -14,45 +14,45 @@ const menuArray = [
       id: 1
     },
     {
-      name: "Beer",
-      ingredients: ["grain, hops, yeast, water"],
-      price: 12,
-      emoji: "🍺",
+      name: "Paneer",
+      ingredients: ["paneer" , "spices", "tomato"],
+      price: 15,
+      emoji: "🥘",
       id: 2
     },
     {
-      name: "Hamburger",
-      ingredients: ["beef", "cheese", "lettuce"],
-      price: 12,
-      emoji: "🍔",
-      id: 1
+      name: "Fried rice",
+      ingredients: ["rice", "oil", "spices"],
+      price: 10,
+      emoji: "🍚",
+      id: 3
     },
     {
-      name: "Beer",
-      ingredients: ["grain, hops, yeast, water"],
-      price: 12,
-      emoji: "🍺",
-      id: 2
+      name: "Non veg",
+      ingredients: ["meat, oil, onion, spices"],
+      price: 18,
+      emoji: "🍗",
+      id: 4
     },
     {
-      name: "Hamburger",
-      ingredients: ["beef", "cheese", "lettuce"],
-      price: 12,
-      emoji: "🍔",
-      id: 1
+      name: "Eggs omelette",
+      ingredients: ["eggs", "oil", "salt"],
+      price: 8,
+      emoji: "🍛",
+      id: 5
     },
     {
-      name: "Pizza",
+      name: "Veg soup",
       ingredients: ["onion", "tomato,", "mushrom"],
-      id: 0,
-      price: 14,
-      emoji: "🍕"
+      id: 6,
+      price: 16,
+      emoji: "🥣"
     },
     {
-      name: "Beer",
-      ingredients: ["grain, hops, yeast, water"],
-      price: 12,
-      emoji: "🍺",
+      name: "Veg Thali",
+      ingredients: ["rice", "pulses", "vegs"],
+      price: 13,
+      emoji: "🍲",
       id: 2
     }
   ];
