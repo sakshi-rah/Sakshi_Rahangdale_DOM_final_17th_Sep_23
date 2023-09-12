@@ -1,0 +1,222 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #13131A;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+
+}
+
+#heading {
+    text-align: center;
+    margin: auto;
+    font-size: 2rem;
+    width: 180px;
+}
+
+#heading:hover {
+    transition: all 0.4s 0s linear;
+    transform: scale(1.2);
+    border-bottom: 2px solid rgb(245, 197, 41);
+    cursor: pointer;
+}
+.navbar {
+    width: 100%;
+    height: 167px;
+    border-radius: 13px 13px 0 0;
+  
+    display: flex;
+    background: url("./../Images/orders.jpg")
+      no-repeat center center;
+    background-size: cover;
+  }
+  .navbar-text {
+    margin: auto 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .navbar-tagline {
+    font-size: 19px;
+    margin-top: 20px;
+    line-height: 14px;
+  }
+  .c-padding {
+    padding: 0px 46px;
+  }
+  main {
+    padding: 46px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    gap: 46px;
+    margin: auto;
+  }
+  .food-item {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+    height: 140px;
+    border-bottom: 1px solid #d2d2d2;
+  }
+  .food-img {
+    font-size: 80px;
+    display: block;
+  }
+  .food-desc-head {
+    font-size: 28px;
+    color: #fff;
+    font-weight: 200;
+  }
+  .food-desc-materials {
+    color: #8b8b8b;
+    margin: 8px 0px;
+  }
+  .food-desc-price {
+    color: rgb(245, 197, 41);
+    font-size: 22px;
+  }
+  .add-btn {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #d2d2d2;
+    margin-left: auto;
+  }
+  
+  /* Checkout Container */
+  .checkout-container {
+    margin-top: 30px;
+    color: black;
+    font-size: 22px;
+  }
+  .cart-desc {
+    font-weight: normal;
+    text-align: center;
+  }
+  .cart-details {
+    margin: 64px 0 20px 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 32px;
+    gap: 20px;
+    border-bottom: 1px solid #d2d2d2;
+  }
+  .cart-item {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .remove-item {
+    font-size: 16px;
+    color: #bbbbbb;
+    line-height: 28px;
+  }
+  .cart-item-price {
+    display: inline-block;
+    margin-left: auto;
+  }
+  .total-price {
+    display: flex;
+  }
+  .total-items-price {
+    display: inline-block;
+    margin-left: auto;
+  }
+  .btn-order {
+    font-family: Verdana;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    margin-top: 50px;
+    padding: 18px;
+    background-color: #16db99;
+    border: none;
+  }
+  .order-qty {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  /* Model */
+  .model {
+    position: fixed;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    width: 450px;
+    background: #fff;
+    height: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    padding: 20px 23px 0px 23px;
+    border-radius: 4px;
+    box-shadow: 0 0 50px 10px #757575;
+  }
+  .model-header {
+    text-align: center;
+    margin-bottom: 46px;
+    font-size: 24px;
+  }
+  input {
+    width: 100%;
+    height: 60px;
+    padding: 16px 23px;
+    margin-bottom: 23px;
+    font-size: 20px;
+    color: #757575;
+    border: 1px solid #757575;
+    outline: none;
+    border-radius: 4px;
+  }
+  input:active,
+  input:hover {
+    outline: none;
+  }
+  .pay-btn {
+    margin-top: 36px;
+    font-weight: bold;
+    color: white;
+    background: #16db99;
+    border: none;
+    outline: none;
+  }
+  /* Welcome Message */
+  .thank-you-conatiner {
+    width: 100%;
+    height: 120px;
+    background: #ecfdf5;
+    border-radius: 3px;
+    color: #16db99;
+    text-align: center;
+    line-height: 120px;
+    font-weight: bold;
+  }
+  /* Utility */
+  .hidden {
+    display: none;
+  }
+  
+  @media (max-width: 530px) {
+    main {
+      padding: 20px;
+    }
+    .food-item {
+      gap: 10px;
+    }
+    .food-img {
+      font-size: 60px;
+    }
+  }
+  
