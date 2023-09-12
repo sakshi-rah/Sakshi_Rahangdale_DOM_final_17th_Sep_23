@@ -508,6 +508,9 @@ section {
         display: flex;
         flex-wrap: wrap;
     }
+    #heading1{
+        font-size: 1.5rem;
+    }
 }
 .customer-photo img {
     display: block;
