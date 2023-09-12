@@ -323,7 +323,6 @@ section {
     padding-left: 50px;
     padding-right: 50px;
     margin-top: 5rem;
-    margin-bottom: 5rem;
     background-image: url('./../Images/contact.png');
 }
 
@@ -477,4 +476,55 @@ section {
     .contact-form {
         width: 100%;
     }
+}
+/* Customer view  */
+#testimonials {
+    padding: 5rem 0;
+}
+
+#heading1 {
+    text-align: center;
+    margin: auto;
+    font-size: 2rem;
+    width: 400px;
+}
+
+#heading1:hover {
+    transition: all 0.4s 0s linear;
+    transform: scale(1.2);
+    border-bottom: 2px solid rgb(245, 197, 41);
+    cursor: pointer;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.customer-photo img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin: auto;
+    border-right: 5px solid rgb(245, 197, 41);
+}
+
+.testimonial-box .checked {
+    color: rgb(245, 197, 41);
+}
+
+.testimonial-box .testimonial-text {
+    margin: 1rem 0;
+    color: #9c9999;
+}
+
+.testimonial-box {
+    text-align: center;
+    padding: 1rem;
 }
