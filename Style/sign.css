@@ -1,6 +1,8 @@
 /*Signup*/
 body {
-    background-color: #13131A;
+    background-image: url('./../Images/login-signup.jpg');
+    background-size: cover;
+    background-position: center;
     font-family: sans-serif;
 }
 
