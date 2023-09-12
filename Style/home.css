@@ -280,12 +280,15 @@ section {
     padding-bottom: 50px;
   }
   
-  .container {
-    max-width: 1080px;
+  .contact-container {
+    max-width: 1200px;
+    height: 500px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 5rem;
+    background-image: url('./../Images/contact.png');
   }
   
   .section-header {
@@ -312,7 +315,9 @@ section {
   }
   
   .contact-info {
-    width: 50%;
+    width: 30%;
+    padding: 1rem;
+    margin-top: 5rem;
   }
   
   .contact-info-item {
@@ -323,7 +328,7 @@ section {
   .contact-info-icon {
     height: 70px;
     width: 70px;
-    background-color: #fff;
+    background-color: black;
     text-align: center;
     border-radius: 50%;
   }
@@ -338,7 +343,7 @@ section {
   }
   
   .contact-info-content h4 {
-    color: #1da9c0;
+    color: rgb(245, 197, 41);
     font-size: 1.4em;
     margin-bottom: 5px;
   }
@@ -349,18 +354,21 @@ section {
   }
   
   .contact-form {
-    background-color: #fff;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #cac4c4;
+    box-shadow: 1px 1px 7px #cac4c4;
     padding: 40px;
     width: 45%;
     padding-bottom: 20px;
     padding-top: 20px;
+    margin-top: 5rem;
   }
   
   .contact-form h2 {
     font-weight: bold;
     font-size: 2em;
     margin-bottom: 10px;
-    color: #333;
+    color: #fff;
   }
   
   .contact-form .input-box {
@@ -372,11 +380,12 @@ section {
   .contact-form .input-box input,
   .contact-form .input-box textarea{
     width: 100%;
-    padding: 5px 0;
+    padding: 6px 0;
     font-size: 16px;
     margin: 10px 0;
     border: none;
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #fff;
+    background-color: transparent;
     outline: none;
     resize: none;
   }
@@ -394,7 +403,7 @@ section {
   
   .contact-form .input-box input:focus ~ span,
   .contact-form .input-box textarea:focus ~ span{
-    color: #e91e63;
+    color: rgb(245, 197, 41);
     font-size: 12px;
     transform: translateY(-20px);
   }
@@ -402,20 +411,20 @@ section {
   .contact-form .input-box input[type="submit"]
   {
     width: 100%;
-    background: #00bcd4;
+    background: rgb(245, 197, 41);
     color: #FFF;
+    font-weight: bold;
+    border-radius: 3px;
     border: none;
     cursor: pointer;
     padding: 10px;
     font-size: 18px;
-    border: 1px solid #00bcd4;
     transition: 0.5s;
   }
   
   .contact-form .input-box input[type="submit"]:hover
   {
-    background: #FFF;
-    color: #00bcd4;
+    background: rgb(246, 212, 100);
   }
   
   @media (max-width: 991px) {
