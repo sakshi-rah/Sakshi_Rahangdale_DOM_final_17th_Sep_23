@@ -702,6 +702,7 @@ section {
     }
     .social-menu ul li a {
         width: 35px;
+        margin-left: 10px;
     }
     .subs{
         width: 200px;
