@@ -3,3 +3,89 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   
 }
+/*navbar css*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    color: white;
+    overflow: hidden;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.app_name {
+    font-size: 1.3rem;
+    margin-left: 1rem;
+}
+
+.items {
+    display: flex;
+    text-decoration: none;
+}
+
+select {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+select option {
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.items a {
+    text-decoration: none;
+    margin-right: 2rem;
+    color: white;
+}
+
+.items a:hover {
+    font-size: 1rem;
+    transition: all 0.4s 0s linear;
+    transform: scale(1.20);
+    border-bottom: 2px solid rgb(245, 197, 41);
+}
+
+.btn {
+    margin-right: 1rem;
+    padding: 6px;
+    background-color: rgb(245, 197, 41);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+}
+
+.btn:hover {
+    background-color: rgb(246, 212, 100);
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 10px 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+
+}
