@@ -53,27 +53,6 @@ select option {
     border-bottom: 2px solid rgb(245, 197, 41);
 }
 
-.btn {
-    margin-right: 1rem;
-    padding: 6px;
-    background-color: rgb(245, 197, 41);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.btn a {
-    text-decoration: none;
-    color: white;
-    background-color: transparent;
-}
-
-.btn:hover {
-    background-color: rgb(246, 212, 100);
-}
-
 @media (max-width: 768px) {
     header {
         padding: 10px 0;
