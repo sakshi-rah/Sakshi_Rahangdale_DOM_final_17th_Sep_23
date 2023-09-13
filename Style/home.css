@@ -548,21 +548,24 @@ section {
     background-image: url('./../Images/login-signup.jpg');
     background-size: cover;
     background-position: center;
+    height: auto;
+    padding: 1rem;
 }
-
+.footer-container h1{
+    margin-left: 2.5rem;
+}
 .footer {
-    margin: 10px;
-    height: 300px;
-    padding: 40px;
-    padding-bottom: 5px;
-    margin-bottom: 2px;
+    height: 210px;
+    padding: 30px;
     display: flex;
     color: white;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .links {
-    margin: 10px;
-    width: 300px;
+    margin: auto;
+    width: 280px;
     height: 245px;
 }
 
@@ -582,15 +585,17 @@ section {
     color: rgba(152, 152, 152, 0.979);
     text-decoration: none;
 }
-.sub-links a:hover{
-    color: rgba(220, 218, 218, 0.979); 
+
+.sub-links a:hover {
+    color: rgba(220, 218, 218, 0.979);
 }
+
 .logo {
     width: 50px;
 }
 
 .links-email {
-    width: 290px;
+    width: 270px;
     padding: 10px;
     outline: none;
     border: none;
@@ -604,7 +609,7 @@ section {
 }
 
 .subs {
-    width: 290px;
+    width: 270px;
     color: #fff;
     padding: 10px;
     border: none;
@@ -622,19 +627,18 @@ section {
 /*Socials*/
 
 .social-menu {
-    width: 440px;
-    height: 120px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 11px;
+    width: 450px;
+    height: auto;
+    margin: auto;
+    padding: 10px;
 }
 
 .social-menu ul {
+    display: flex;
+    flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
-    display: flex;
-
 }
 
 .social-menu ul li {
@@ -685,15 +689,25 @@ section {
     background-color: #002E6E;
 }
 
-/*Social End*/
+@media (max-width:530px){
+    .social-menu {
+        width: 250px;
+        height: auto;
+    }
+    .social-menu ul{
+    margin: auto;
+    }
+    .social-menu ul li .fab {
+        font-size: 20px;
+    }
+    .social-menu ul li a {
+        width: 35px;
+    }
+    .subs{
+        width: 200px;
+    }
+    .links-email{
+        width: 200px;
 
-.socials {
-    width: 38px;
-    margin: 10px;
-    cursor: pointer;
-}
-
-.subs-btn {
-    text-align: center;
-
+    }
 }
