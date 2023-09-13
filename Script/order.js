@@ -175,11 +175,11 @@ const menuArray = [
                       <div class="cart-item" > 
                           <span class="cart-item-name">    ${item.name}</span> 
                           <span class="remove-item" id =     ${item.id}>remove</span>
-                          <span class="cart-item-price" >    $    ${item.price}</span>
+                          <span class="cart-item-price" >    ₹    ${item.price}</span>
                       </div>`;
       totalPrice += item.price;
     });
-    document.querySelector(".total-items-price").textContent = `    $    ${totalPrice}`;
+    document.querySelector(".total-items-price").textContent = `    ₹    ${totalPrice}`;
     return cartHtml;
   }
   
