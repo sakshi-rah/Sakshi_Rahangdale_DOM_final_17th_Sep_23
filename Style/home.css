@@ -555,7 +555,7 @@ section {
     margin-left: 2.5rem;
 }
 .footer {
-    height: 210px;
+    height: auto;
     padding: 30px;
     display: flex;
     color: white;
@@ -709,5 +709,9 @@ section {
     .links-email{
         width: 200px;
 
+    }
+    .footer-container h1{
+        font-size: 18px;
+        margin-left: 1.5rem;
     }
 }
