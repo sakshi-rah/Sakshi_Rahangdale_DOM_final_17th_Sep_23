@@ -230,6 +230,13 @@ select option {
     object-position: center;
 }
 
+.food-menu-container img:hover {
+    transition: all 0.5s 0.1s ease-out;
+    transform: scale(1.090);
+    cursor: pointer;
+}
+
+
 .food-menu-item {
     display: flex;
     flex-wrap: wrap;
@@ -242,7 +249,8 @@ select option {
     margin: auto 1.5rem;
     text-align: center;
 }
-.food-description p{
+
+.food-description p {
     width: 70%;
     margin: auto;
     padding: 5px;
@@ -257,15 +265,17 @@ select option {
 
 .food-description p {
     font-size: 1rem;
-    color:#9f9898;
+    color: #9f9898;
     font-weight: 600;
 }
+
 .food-description .food-price {
     font-size: 20px;
-    color:rgb(245, 197, 41);
+    color: rgb(245, 197, 41);
     font-weight: 700;
 }
-.orderbtn button{
+
+.orderbtn button {
     width: 150px;
     margin: 5px;
     padding: 5px;
@@ -275,19 +285,23 @@ select option {
     border-radius: 3px;
     background-color: rgb(245, 197, 41);
 }
-.orderbtn button:hover{
+
+.orderbtn button:hover {
     background-color: rgb(246, 212, 100);
 }
-.orderbtn button a{
+
+.orderbtn button a {
     text-decoration: none;
     color: #fff;
 }
-@media(max-width:530px){
-    .food-menu h2{
-     font-size: 1.5rem;
-     width: 20rem;
+
+@media(max-width:530px) {
+    .food-menu h2 {
+        font-size: 1.5rem;
+        width: 20rem;
     }
-    .food-title{
+
+    .food-title {
         font-size: 1.3rem;
 
     }

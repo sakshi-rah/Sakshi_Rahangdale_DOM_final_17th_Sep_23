@@ -3,13 +3,13 @@ const menuArray = [
       name: "Pizza",
       ingredients: ["onion", "tomato,", "mushrom"],
       id: 0,
-      price: 14,
+      price: 260,
       emoji: "🍕"
     },
     {
       name: "Burger",
       ingredients: ["beef", "cheese", "lettuce"],
-      price: 12,
+      price: 220,
       emoji: "🍔",
       id: 1
     },
@@ -98,7 +98,34 @@ const menuArray = [
       emoji: "🍗",
       id: 13
     },
-  
+    {
+      name: "Noodles",
+      ingredients: ["sauce", "oil", "noodles"],
+      price: 80,
+      emoji: "🍜",
+      id: 14
+    },
+    {
+      name: "Manchurian",
+      ingredients: ["sauce", "carrot", "cabbage"],
+      price: 185,
+      emoji: "🍝",
+      id: 15
+    },
+    {
+      name: "French fries",
+      ingredients: ["sauce", "potato", "oil"],
+      price: 110,
+      emoji: "🍟",
+      id: 16
+    },
+    {
+      name: "Sandwich",
+      ingredients: ["sauce", "cheese", "paneer"],
+      price: 279,
+      emoji: "🥪",
+      id: 17
+    },
    
   ];
   
