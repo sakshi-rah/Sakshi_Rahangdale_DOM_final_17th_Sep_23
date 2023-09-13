@@ -233,6 +233,7 @@ select option {
 
 .food-menu-item {
     display: flex;
+    flex-wrap: wrap;
     flex: 1 1 600px;
     justify-content: space-evenly;
     margin-bottom: 3rem;
@@ -240,6 +241,12 @@ select option {
 
 .food-description {
     margin: auto 1.5rem;
+    text-align: center;
+}
+.food-description p{
+    width: 80%;
+    margin: auto;
+    padding: 5px;
 }
 
 .food-title {
@@ -258,4 +265,21 @@ select option {
     font-size: 20px;
     color:rgb(245, 197, 41);
     font-weight: 700;
+}
+.orderbtn button{
+    width: 150px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    background-color: rgb(245, 197, 41);
+}
+.orderbtn button:hover{
+    background-color: rgb(246, 212, 100);
+}
+.orderbtn button a{
+    text-decoration: none;
+    color: #fff;
 }
