@@ -192,14 +192,70 @@ select option {
         margin-bottom: 2rem;
 
     }
+
     .img-container {
         position: relative;
     }
+
     .img-container::after {
         width: 20rem;
         height: 20rem;
         left: 8px;
         right: 8px;
-       
+
     }
+}
+
+/*menu section*/
+
+/*veg box*/
+#food-menu {
+    padding: 5rem 0;
+    margin-top: 1rem;
+}
+
+
+.food-menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+    padding: 50px 0px 30px 0px;
+}
+
+.food-menu-container img {
+    display: block;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.food-menu-item {
+    display: flex;
+    flex: 1 1 600px;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+}
+
+.food-description {
+    margin: auto 1.5rem;
+}
+
+.food-title {
+    font-size: 1.8rem;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.food-description p {
+    font-size: 1rem;
+    color:#9f9898;
+    font-weight: 600;
+}
+.food-description .food-price {
+    font-size: 20px;
+    color:rgb(245, 197, 41);
+    font-weight: 700;
 }
