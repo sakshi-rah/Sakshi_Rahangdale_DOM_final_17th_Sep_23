@@ -192,11 +192,14 @@ select option {
         margin-bottom: 2rem;
 
     }
+    .img-container {
+        position: relative;
+    }
     .img-container::after {
         width: 20rem;
         height: 20rem;
         position: absolute;
         top: 0;
-        left: 10px;
+        left: 20px;
     }
 }
