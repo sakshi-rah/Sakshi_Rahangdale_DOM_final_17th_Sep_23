@@ -568,6 +568,7 @@ section {
 
 .links h2 {
     font-size: 20px;
+    font-weight: 800;
 }
 
 .sub-links {
@@ -578,18 +579,44 @@ section {
 .sub-links a {
     font-size: 15px;
     font-weight: 700;
-    color: rgba(110, 109, 109, 0.979);
+    color: rgba(152, 152, 152, 0.979);
     text-decoration: none;
 }
-
+.sub-links a:hover{
+    color: rgba(220, 218, 218, 0.979); 
+}
 .logo {
     width: 50px;
 }
 
-.subs {
+.links-email {
     width: 290px;
     padding: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
     border-radius: 5px;
+}
+
+.links-email:hover {
+    border: 2px solid rgb(245, 197, 41);
+
+}
+
+.subs {
+    width: 290px;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    font-size: 22px;
+    font-weight: 700;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(245, 197, 41);
+}
+
+.subs:hover {
+    background-color: rgb(246, 212, 100);
 }
 
 /*Socials*/
