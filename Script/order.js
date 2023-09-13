@@ -28,16 +28,16 @@ const menuArray = [
       id: 3
     },
     {
-      name: "Non veg",
+      name: "Chicken",
       ingredients: ["meat, oil, onion, spices"],
-      price: 18,
+      price: 430,
       emoji: "🍗",
       id: 4
     },
     {
       name: "Eggs omelette",
-      ingredients: ["eggs", "oil", "salt"],
-      price: 8,
+      ingredients: ["eggs", "oil", "spices"],
+      price: 90,
       emoji: "🍛",
       id: 5
     },
@@ -69,6 +69,36 @@ const menuArray = [
       emoji: "🥗",
       id: 9
     },
+    {
+      name: "Fish",
+      ingredients: ["fish, oil, spices"],
+      price: 340,
+      emoji: "🦈",
+      id: 10
+    },
+    {
+      name: "Chicken Biriyani",
+      ingredients: ["meats, rice, spices"],
+      price: 385,
+      emoji: "🍗",
+      id: 11
+    },
+    {
+      name: "Mutton",
+      ingredients: ["meats, oil, spices"],
+      price: 570,
+      emoji: "🍖",
+      id: 12
+    },
+  
+    {
+      name: "Tandoori chicken",
+      ingredients: ["chicken, oil, spices"],
+      price: 480,
+      emoji: "🍗",
+      id: 13
+    },
+  
    
   ];
   
