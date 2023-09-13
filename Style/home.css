@@ -58,20 +58,6 @@ nav {
     text-decoration: none;
 }
 
-select {
-    background-color: transparent;
-    color: white;
-    border: none;
-    font-size: 1rem;
-    font-weight: bold;
-    text-align: center;
-}
-
-select option {
-    background-color: transparent;
-    color: white;
-    border: none;
-}
 
 .items a {
     text-decoration: none;
@@ -85,6 +71,22 @@ select option {
     transform: scale(1.20);
     border-bottom: 2px solid rgb(245, 197, 41);
 }
+
+/* Style the menu bar (initially hidden on large screens) */
+.menu-bar {
+    display: none;
+    cursor: pointer;
+}
+
+/* Style the hamburger icon */
+.hamburger {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+    transition: 0.4s;
+}
+
 
 .btn {
     margin-right: 1rem;
@@ -107,34 +109,51 @@ select option {
     background-color: rgb(246, 212, 100);
 }
 
-@media (max-width: 768px) {
-    header {
-        padding: 3px;
-    }
-   
-    nav ul {
-        flex-direction: column;
-        align-items: center;
+
+@media screen and (max-width: 768px) {
+    .menu-bar {
+        display: block;
+        /* Show the menu bar */
     }
 
-    nav li {
-        margin: 10px 0;
+    .items {
+        display: none;
+        /* Hide the navigation links */
+        flex-direction: column;
+        position: absolute;
+        gap: 10px;
+        top: 50px;
+        left: 0;
+        z-index: 10;
+        background-color: black;
+        color: #c0bcbc;
+        width: 100%;
+        padding: 20px;
     }
-    .items a {
-        text-decoration: none;
-        margin-right: 0.3rem;
-        color: white;
-        font-size: 0.8rem;
+    .items a{
+        width: 80px;
     }
     .items a:hover {
-        font-size: 0.8rem;
         transition: all 0.4s 0s linear;
-        transform: scale(1.1);
-        border-bottom: 2px solid rgb(245, 197, 41);
+        transform: scale(1.05);
     }
-    
-}
+    .items.active {
+        display: flex;
+        /* Show the navigation links when active */
+    }
 
+    .hamburger.active .line1 {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    .hamburger.active .line2 {
+        opacity: 0;
+    }
+
+    .hamburger.active .line3 {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+}
 /*home page*/
 .hero {
     background-image: url('./../Images/restaurant-image.jpg');
