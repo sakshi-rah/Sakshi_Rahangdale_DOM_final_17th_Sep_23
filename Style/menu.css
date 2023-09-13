@@ -9,10 +9,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px;
     color: white;
     overflow: hidden;
-    margin: 5px;
     font-weight: bold;
 }
 
@@ -56,7 +54,7 @@ select option {
 
 @media (max-width: 768px) {
     header {
-        padding: 10px 0;
+        padding: 3px;
     }
 
     nav ul {
