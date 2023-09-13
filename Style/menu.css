@@ -198,8 +198,7 @@ select option {
     .img-container::after {
         width: 20rem;
         height: 20rem;
-        position: absolute;
-        top: 0;
-        left: 5px;
+        left: 8px;
+       
     }
 }
