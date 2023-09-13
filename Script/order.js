@@ -16,14 +16,14 @@ const menuArray = [
     {
       name: "Paneer",
       ingredients: ["paneer" , "spices", "tomato"],
-      price: 15,
+      price: 250,
       emoji: "🥘",
       id: 2
     },
     {
       name: "Fried rice",
       ingredients: ["rice", "oil", "spices"],
-      price: 10,
+      price: 170,
       emoji: "🍚",
       id: 3
     },
@@ -45,16 +45,31 @@ const menuArray = [
       name: "Veg soup",
       ingredients: ["onion", "tomato,", "mushrom"],
       id: 6,
-      price: 16,
+      price: 130,
       emoji: "🥣"
     },
     {
       name: "Veg Thali",
       ingredients: ["rice", "pulses", "vegs"],
-      price: 13,
+      price: 210,
       emoji: "🍲",
-      id: 2
-    }
+      id: 7
+    },
+    {
+      name: "Shev Bhaji",
+      ingredients: ["shev", "spices", "tomato"],
+      price: 265,
+      emoji: "🥧",
+      id: 8
+    },
+    {
+      name: "Mix-veg",
+      ingredients: ["gajar", "matar", "gobi"],
+      price: 232,
+      emoji: "🥗",
+      id: 9
+    },
+   
   ];
   
   const containerEl = document.querySelector(".container");
@@ -65,13 +80,13 @@ const menuArray = [
     data.forEach((item) => {
       foodHtml += `
               <div class="food-item" >
-                      <div class="food-img">${item.emoji}</div>
+                      <div class="food-img">    ${item.emoji}</div>
                       <div class="food-desc">
-                          <h2 class="food-desc-head">${item.name}</h2>
-                          <p class="food-desc-materials">${item.ingredients}</p>
-                          <p class="food-desc-price">$${item.price}</p>
+                          <h2 class="food-desc-head">    ${item.name}</h2>
+                          <p class="food-desc-materials">    ${item.ingredients}</p>
+                          <p class="food-desc-price">    ₹    ${item.price}</p>
                       </div>
-                      <button class="add-btn" data-add=${item.id} >  + </button>
+                      <button class="add-btn" data-add=    ${item.id} >  + </button>
                   </div>
          `;
     });
@@ -102,7 +117,7 @@ const menuArray = [
       showHideContainer(1);
       document.querySelector(".checkout-container").innerHTML = `
               <div class="thank-you-conatiner">
-                  Thanks, ${formName}! Your order is on its way!
+                  Thanks,     ${formName}! Your order is on its way!
               </div>
           `;
     } else if (e.target.id) {
@@ -128,13 +143,13 @@ const menuArray = [
     cartItem.forEach((item) => {
       cartHtml += ` 
                       <div class="cart-item" > 
-                          <span class="cart-item-name">${item.name}</span> 
-                          <span class="remove-item" id = ${item.id}>remove</span>
-                          <span class="cart-item-price" >$${item.price}</span>
+                          <span class="cart-item-name">    ${item.name}</span> 
+                          <span class="remove-item" id =     ${item.id}>remove</span>
+                          <span class="cart-item-price" >    $    ${item.price}</span>
                       </div>`;
       totalPrice += item.price;
     });
-    document.querySelector(".total-items-price").textContent = `$${totalPrice}`;
+    document.querySelector(".total-items-price").textContent = `    $    ${totalPrice}`;
     return cartHtml;
   }
   

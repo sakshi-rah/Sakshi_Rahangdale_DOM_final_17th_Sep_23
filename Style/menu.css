@@ -236,7 +236,7 @@ select option {
     flex-wrap: wrap;
     flex: 1 1 600px;
     justify-content: space-evenly;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 
 .food-description {
@@ -244,7 +244,7 @@ select option {
     text-align: center;
 }
 .food-description p{
-    width: 90%;
+    width: 70%;
     margin: auto;
     padding: 5px;
 }
@@ -287,5 +287,9 @@ select option {
     .food-menu h2{
      font-size: 2rem;
      width: 20rem;
+    }
+    .food-title{
+        font-size: 1.3rem;
+
     }
 }
