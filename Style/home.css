@@ -109,9 +109,9 @@ select option {
 
 @media (max-width: 768px) {
     header {
-        padding: 10px 0;
+        padding: 3px;
     }
-
+   
     nav ul {
         flex-direction: column;
         align-items: center;
@@ -120,7 +120,19 @@ select option {
     nav li {
         margin: 10px 0;
     }
-
+    .items a {
+        text-decoration: none;
+        margin-right: 0.3rem;
+        color: white;
+        font-size: 0.8rem;
+    }
+    .items a:hover {
+        font-size: 0.8rem;
+        transition: all 0.4s 0s linear;
+        transform: scale(1.1);
+        border-bottom: 2px solid rgb(245, 197, 41);
+    }
+    
 }
 
 /*home page*/
