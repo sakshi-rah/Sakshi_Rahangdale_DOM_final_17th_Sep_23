@@ -1,8 +1,9 @@
 body {
     background-color: #13131A;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  
+
 }
+
 /*navbar css*/
 nav {
     display: flex;
@@ -93,7 +94,7 @@ select option {
 }
 
 .food-container {
-    display:flex;
+    display: flex;
     justify-content: space-between;
 }
 
@@ -116,35 +117,50 @@ select option {
     position: absolute;
     top: 70%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     opacity: 0;
     z-index: 2;
     text-align: center;
     transition: all 0.4s ease-in-out 0.1s;
 }
 
-.img-content h3  {
+.img-content h3 {
     color: #fff;
     font-size: 2.2rem;
 }
 
 .img-content a {
     font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.img-content button {
+    background-color: rgb(245, 197, 41);
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.img-content button:hover {
+    background-color: rgb(246, 212, 100);
 }
 
 .img-container::after {
     content: "";
     display: block;
     position: absolute;
-    top:  0;
+    border-radius: 50%;
+    top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.7);
+    width: 25rem;
+    height: 25rem;
+    background: rgba(0, 0, 0, 0.8);
     opacity: 0;
     z-index: 1;
     transform: scaleY(0);
-    transform-origin: 100% 100%;
+    transform-origin: 25rem 25rem;
     transition: all 0.3s ease-in-out;
 }
 
@@ -158,21 +174,29 @@ select option {
     top: 40%;
 }
 
-@media (max-width:530px){
+@media (max-width:530px) {
     #heading {
         font-size: 2.5rem;
         width: 18rem;
     }
+
     .food-container {
-        display:block;
+        display: block;
         justify-content: center;
         align-items: center;
     }
-    
-    .food-container img {
-       width: 20rem;
-       height: 20rem;
-       margin-bottom: 2rem;
 
+    .food-container img {
+        width: 20rem;
+        height: 20rem;
+        margin-bottom: 2rem;
+
+    }
+    .img-container::after {
+        width: 20rem;
+        height: 20rem;
+        position: absolute;
+        top: 0;
+        left: 22px;
     }
 }
