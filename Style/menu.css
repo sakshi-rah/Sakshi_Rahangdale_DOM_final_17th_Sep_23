@@ -224,8 +224,8 @@ select option {
 
 .food-menu-container img {
     display: block;
-    width: 230px;
-    height: 230px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
@@ -244,7 +244,7 @@ select option {
     text-align: center;
 }
 .food-description p{
-    width: 80%;
+    width: 90%;
     margin: auto;
     padding: 5px;
 }
@@ -282,4 +282,10 @@ select option {
 .orderbtn button a{
     text-decoration: none;
     color: #fff;
+}
+@media(max-width:530px){
+    .food-menu h2{
+     font-size: 2rem;
+     width: 20rem;
+    }
 }
