@@ -393,11 +393,24 @@ input:hover {
     }
 
     .checkout-container {
-        width: 85%;
+        width: 90%;
+
     }
 
     .model {
         width: 350px;
+    }
+
+    .cart-item-name {
+        font-size: 18px;
+    }
+
+    .remove-item {
+        font-size: 15px;
+    }
+
+    .cart-item-price {
+        font-size: 16px;
     }
 
 }
