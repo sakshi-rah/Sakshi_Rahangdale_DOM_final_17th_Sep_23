@@ -199,6 +199,7 @@ select option {
         width: 20rem;
         height: 20rem;
         left: 8px;
+        right: 8px;
        
     }
 }
