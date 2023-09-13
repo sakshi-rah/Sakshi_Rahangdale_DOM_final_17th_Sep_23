@@ -1,28 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./../Style/menu.css">
-    <title>Menu</title>
-</head>
-<body>
-     <!--Navbar started-->
-     <header>
-        <nav id="navbar">
-            <div class="app_name">The-<span
-                    style="color: rgb(245, 197, 41);">K</span>itchen</div>
-            <ul class="items">
-                <a href>Home</a>
-                <a href>Category</a>
-                <a href="./menu.html">Menu</a>
-                <a href="./order.html">Orders</a>
-                <a href="./../index.html">About</a>
-                <a href="./../index.html">Contact</a>
-            </ul>
-        </nav>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./../Style/menu.css">
+        <title>Menu</title>
+    </head>
+    <body>
+        <!--Navbar started-->
+        <header>
+            <nav id="navbar">
+                <div class="app_name">The-<span
+                        style="color: rgb(245, 197, 41);">K</span>itchen</div>
+                <ul class="items">
+                    <a href="./../index.html">Home</a>
+                    <a href="#category">Category</a>
+                    <a href="./menu.html">Menu</a>
+                    <a href="./order.html">Orders</a>
+                    <a href="./../index.html">About</a>
+                    <a href="./../index.html">Contact</a>
+                </ul>
+            </nav>
+        </header>
 
+        <!-- category section -->
+        <section id="food">
+            <h2 id="heading">Food <span
+                style="color: rgb(245, 197, 41);">C</span>ategory</h2>
+            <div class="food-container container">
+                <div class="food-type veg">
+                    <div class="img-container">
+                        <img src="./../Images/veg.jpg"
+                            alt="veg">
+                        <div class="img-content">
+                            <h3>Veg</h3>
+                            <a href="#veg" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="food-type nonVeg">
+                    <div class="img-container">
+                        <img src="./../Images/non-veg.jpg"
+                            alt="non-veg">
+                        <div class="img-content">
+                            <h3>Non-veg</h3>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="food-type fastFood">
+                    <div class="img-container">
+                        <img src="./../Images/fast-food.jpg"
+                            alt="fast-food">
+                        <div class="img-content">
+                            <h3>Fast food</h3>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-</body>
+    </body>
 </html>
