@@ -478,6 +478,7 @@ section {
         width: 100%;
     }
 }
+
 /* Customer view  */
 #testimonials {
     padding: 5rem 0;
@@ -504,15 +505,18 @@ section {
     padding: 1rem;
     margin: 2rem;
 }
+
 @media (max-width: 450px) {
-    .testimonial-container{
+    .testimonial-container {
         display: flex;
         flex-wrap: wrap;
     }
-    #heading1{
+
+    #heading1 {
         font-size: 1.5rem;
     }
 }
+
 .customer-photo img {
     display: block;
     width: 150px;
@@ -538,3 +542,131 @@ section {
     padding: 1rem;
 }
 
+/*footer*/
+
+.footer-container {
+    background-image: url('./../Images/login-signup.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.footer {
+    margin: 10px;
+    height: 300px;
+    padding: 40px;
+    padding-bottom: 5px;
+    margin-bottom: 2px;
+    display: flex;
+    color: white;
+}
+
+.links {
+    margin: 10px;
+    width: 300px;
+    height: 245px;
+}
+
+.links h2 {
+    font-size: 20px;
+}
+
+.sub-links {
+    width: 200px;
+    height: 200px;
+}
+
+.sub-links a {
+    font-size: 15px;
+    font-weight: 700;
+    color: rgba(110, 109, 109, 0.979);
+    text-decoration: none;
+}
+
+.logo {
+    width: 50px;
+}
+
+.subs {
+    width: 290px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/*Socials*/
+
+.social-menu {
+    width: 440px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 11px;
+}
+
+.social-menu ul {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    display: flex;
+
+}
+
+.social-menu ul li {
+    list-style: none;
+    margin: auto auto;
+}
+
+.social-menu ul li .fab {
+    font-size: 30px;
+    line-height: 50px;
+    transition: .3px;
+    color: #000;
+}
+
+.social-menu ul li .fab:hover {
+    color: #fff;
+}
+
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 0 5px 4px rgba(95, 94, 94, 0.767);
+}
+
+.social-menu ul li a:hover {
+    transform: translate(0, -10%);
+}
+
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: rgba(0, 0, 0, 0.829);
+}
+
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #0077b5;
+}
+
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #e4405f;
+}
+
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #002E6E;
+}
+
+/*Social End*/
+
+.socials {
+    width: 38px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.subs-btn {
+    text-align: center;
+
+}
