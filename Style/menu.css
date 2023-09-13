@@ -285,7 +285,7 @@ select option {
 }
 @media(max-width:530px){
     .food-menu h2{
-     font-size: 2rem;
+     font-size: 1.5rem;
      width: 20rem;
     }
     .food-title{
