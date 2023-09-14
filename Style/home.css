@@ -150,7 +150,7 @@ nav {
     }
 
     .user {
-        margin-left: 2rem;
+        margin-left: 1rem;
     }
 
     .hamburger.active .line1 {
@@ -366,6 +366,7 @@ section {
     padding-left: 50px;
     padding-right: 50px;
     margin-top: 5rem;
+    margin-bottom: 5rem;
     background-image: url('./../Images/contact.png');
 }
 
@@ -531,7 +532,7 @@ section {
     text-align: center;
     margin: auto;
     font-size: 2rem;
-    width: 400px;
+    width: 500px;
 }
 
 #heading1:hover {
