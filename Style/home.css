@@ -481,7 +481,11 @@ nav {
     }
 
     #heading1 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+    }
+    
+    #heading1:hover {
+        transform: scale(1.1);
     }
 }
 
@@ -515,6 +519,7 @@ nav {
 /*Reservation */
 .reservation-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin: 5rem;
 }
@@ -533,7 +538,7 @@ nav {
 
 .reservation-form h2 {
     font-weight: bold;
-    font-size: 2em;
+    font-size: 2rem;
     margin-bottom: 10px;
     margin-top: 10px;
     color: #fff;
@@ -606,10 +611,24 @@ nav {
     transform: scale(1.1);
 }
 
-@media (max-width: 991px) {
+@media (max-width: 530px) {
 
     .reservation-form {
         width: 100%;
+        border: 1px solid #fff;
+        margin-top: 1rem;
+    }
+    .reservation-form h2 {
+        font-size: 1.2rem;
+    }
+    .reservationImg img {
+        width: 370px;
+        border-radius: 10px;
+    }
+    
+    .reservationImg:hover {
+        transition: all 0.5s 0.1s ease-out;
+        transform: scale(1.07);
     }
 }
 
