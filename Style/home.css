@@ -452,16 +452,16 @@ nav {
     padding: 5rem 0;
 }
 
-#heading1 {
+#customerviews {
     text-align: center;
+    font-size: 1.5rem;
+    width: 300px;
     margin: auto;
-    font-size: 2rem;
-    width: 500px;
 }
 
-#heading1:hover {
+#customerviews:hover {
     transition: all 0.4s 0s linear;
-    transform: scale(1.2);
+    transform: scale(1.1);
     border-bottom: 2px solid rgb(245, 197, 41);
     cursor: pointer;
 }
@@ -480,11 +480,7 @@ nav {
         flex-wrap: wrap;
     }
 
-    #heading1 {
-        font-size: 1.1rem;
-    }
-    
-    #heading1:hover {
+    #customerviews:hover {
         transform: scale(1.05);
     }
 }
