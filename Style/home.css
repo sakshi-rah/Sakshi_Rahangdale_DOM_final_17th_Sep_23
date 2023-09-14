@@ -481,11 +481,11 @@ nav {
     }
 
     #heading1 {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
     
     #heading1:hover {
-        transform: scale(1.1);
+        transform: scale(1.05);
     }
 }
 
