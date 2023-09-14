@@ -18,11 +18,26 @@ document.addEventListener("DOMContentLoaded", function () {
     if (loggedInUser) {
         // Display the user's name on the home page.
         userName.textContent = loggedInUser;
-        
-    } 
 
-    
+    }
+
+
 });
 
+
+//Reservation
+function reserveTable() {
+    const people = document.getElementById('peopleNo').value
+    document.getElementById('reservation-form').addEventListener("submit", function (event) {
+        var isValid = true;
+        if (people.trim() === " ") {
+            peoplespan.textContent = "Required";
+            isValid = false;
+        } else {
+            alert(`Reserve Table successfully for ${people} peoples 🥳! Enjoy Your date 🎉`)
+        }
+    })
+   
+}
 
 //"https://eduonixjsproject.netlify.app/"

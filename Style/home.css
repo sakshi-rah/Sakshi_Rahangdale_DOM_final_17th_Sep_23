@@ -348,6 +348,177 @@ nav {
 
 }
 
+
+/* Customer view  */
+#testimonials {
+    padding: 5rem 0;
+}
+
+#heading1 {
+    text-align: center;
+    margin: auto;
+    font-size: 2rem;
+    width: 500px;
+}
+
+#heading1:hover {
+    transition: all 0.4s 0s linear;
+    transform: scale(1.2);
+    border-bottom: 2px solid rgb(245, 197, 41);
+    cursor: pointer;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+@media (max-width: 450px) {
+    .testimonial-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #heading1 {
+        font-size: 1.5rem;
+    }
+}
+
+.customer-photo img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin: auto;
+    border-right: 5px solid rgb(245, 197, 41);
+}
+
+.testimonial-box .checked {
+    color: rgb(245, 197, 41);
+}
+
+.testimonial-box .testimonial-text {
+    margin: 1rem 0;
+    color: #9c9999;
+}
+
+.testimonial-box {
+    text-align: center;
+    padding: 1rem;
+}
+
+
+
+/*Reservation */
+.reservation-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 5rem;
+}
+
+.reservation-detail {
+    background-color: #e4405f;
+}
+
+.reservation-form {
+    color: #cac4c4;
+    padding: 50px;
+    width: 50%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.reservation-form h2 {
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.reservation-form .input-box {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.reservation-form .input-box input,
+.reservation-form .input-box textarea {
+    width: 100%;
+    padding: 6px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    color: #cac4c4;
+    border: none;
+    border-bottom: 2px solid #fff;
+    background-color: transparent;
+    outline: none;
+    resize: none;
+}
+
+
+.reservation-form .input-box span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #ddd7d7;
+}
+
+.reservation-form .input-box input:focus~span,
+.reservation-form .input-box textarea:focus~span {
+    color: rgb(245, 197, 41);
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.reservation-form .input-box input[type="submit"] {
+    width: 100%;
+    background: rgb(245, 197, 41);
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 2rem;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.reservation-form .input-box input[type="submit"]:hover {
+    background: rgb(246, 212, 100);
+}
+
+.reservationImg img {
+    width: 550px;
+    border-radius: 10px;
+}
+.reservationImg:hover{
+    transition: all 0.5s 0.1s ease-out;
+    transform: scale(1.1);
+}
+
+@media (max-width: 991px) {
+
+    .reservation-form {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
 /* contact section */
 section {
     position: relative;
@@ -522,68 +693,7 @@ section {
     }
 }
 
-/* Customer view  */
-#testimonials {
-    padding: 5rem 0;
-}
 
-#heading1 {
-    text-align: center;
-    margin: auto;
-    font-size: 2rem;
-    width: 500px;
-}
-
-#heading1:hover {
-    transition: all 0.4s 0s linear;
-    transform: scale(1.2);
-    border-bottom: 2px solid rgb(245, 197, 41);
-    cursor: pointer;
-}
-
-.testimonial-container {
-    display: flex;
-    justify-content: space-between;
-    font-size: 1.4rem;
-    padding: 1rem;
-    margin: 2rem;
-}
-
-@media (max-width: 450px) {
-    .testimonial-container {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    #heading1 {
-        font-size: 1.5rem;
-    }
-}
-
-.customer-photo img {
-    display: block;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: center;
-    margin: auto;
-    border-right: 5px solid rgb(245, 197, 41);
-}
-
-.testimonial-box .checked {
-    color: rgb(245, 197, 41);
-}
-
-.testimonial-box .testimonial-text {
-    margin: 1rem 0;
-    color: #9c9999;
-}
-
-.testimonial-box {
-    text-align: center;
-    padding: 1rem;
-}
 
 /*footer*/
 
