@@ -680,6 +680,8 @@ section {
 .contact-info-content p {
     color: #FFF;
     font-size: 1em;
+    margin-top: 0%;
+    text-align: start;
 }
 
 .contact-form {
