@@ -1,489 +1,524 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./../Style/menu.css">
-    <link rel="stylesheet"
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./../Style/menu.css">
+        <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
             integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
             crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Menu</title>
-</head>
+        <title>Menu</title>
+    </head>
 
-<body>
-    <!--Navbar started-->
-    <header>
-        <nav id="navbar">
-            <div class="app_name">The-<span style="color: rgb(245, 197, 41);">K</span>itchen</div>
-            <ul class="items">
-                <a href="./../index.html">Home</a>
-                <a href="#category">Category</a>
-                <a href="./menu.html">Menu</a>
-                <a href="./order.html">Orders</a>
-                <a href="./../index.html">About</a>
-                <a href="./../index.html">Contact</a>
-                <a href="./login.html" id="logout">Logout</a>
+    <body>
+        <!--Navbar started-->
+        <header>
+            <nav id="navbar">
+                <div class="app_name">The-<span
+                        style="color: rgb(245, 197, 41);">K</span>itchen</div>
+                <ul class="items">
+                    <a href="./../index.html">Home</a>
+                    <a href="#category">Category</a>
+                    <a href="./menu.html">Menu</a>
+                    <a href="./order.html">Orders</a>
+                    <a href="./../index.html">About</a>
+                    <a href="./../index.html">Contact</a>
+                    <a href="./login.html" id="logout">Logout</a>
+                    <p class="user"><span
+                            style="color: rgb(245, 197, 41);">H</span>i, <span
+                            id="user-name">User👋</span></p>
 
-            </ul>
-            <div class="menu-bar">
-                <div class="hamburger"></div>
-            </div>
-            <p class="user">👋 <span id="user-name">User</span></p>
-
-        </nav>
-    </header>
-
-    <!-- category section -->
-    <section id="food">
-        <h2 id="heading">Food <span style="color: rgb(245, 197, 41);">C</span>ategory</h2>
-        <div class="food-container ">
-            <div class="food-type veg">
-                <div class="img-container">
-                    <img src="./../Images/veg.jpg" alt="veg">
-                    <div class="img-content">
-                        <h3>Veg</h3>
-                        <button><a href="#veg">Learn More</a></button>
-                    </div>
-                </div>
-            </div>
-            <div class="food-type nonVeg">
-                <div class="img-container">
-                    <img src="./../Images/non-veg.jpg" alt="non-veg">
-                    <div class="img-content">
-                        <h3>Non-veg</h3>
-                        <button> <a href="#nonveg">Learn More</a></button>
-                    </div>
-                </div>
-            </div>
-            <div class="food-type fastFood">
-                <div class="img-container">
-                    <img src="./../Images/fast-food.jpg" alt="fast-food">
-                    <div class="img-content">
-                        <h3>Fast food</h3>
-                        <button> <a href="#fastfood">Learn More</a></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- menu section -->
-    <!--veg box-->
-    <div id="veg">
-        <section id="food-menu">
-            <h2 id="heading"><span style="color: rgb(245, 197, 41);">V</span>eg Menu</h2>
-            <div class="food-menu-container ">
-                <div class="food-menu-item">
-                    <div class="food-img">
-                        <img src="https://www.sanjanafeasts.co.uk/wp-content/uploads/2018/05/Creamy-Restaurant-Style-Matar-Paneer-1.jpg"
-                            alt="paneer">
-                    </div>
-                    <div class="food-description">
-                        <h2 class="food-title">Masala Paneer</h2>
-                        <p>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
-                            Restaurant special healthy veg masala paneer.
-                            made by paneer, spices, onion, tomato etc.</p>
-                        <p class="food-price"> Price: &#8377;250 </p>
-                        <div class="orderbtn">
-                            <button><a href="./order.html">Order</a></button>
-                        </div>
-                    </div>
-
+                </ul>
+                <div class="menu-bar">
+                    <div class="hamburger"><i class="fa-solid fa-bars"></i></div>
                 </div>
 
-                <div class="food-menu-item">
-                    <div class="food-img">
-                        <img src="https://www.licious.in/blog/wp-content/uploads/2022/12/Shutterstock_1043177881.jpg"
-                            alt="friedrice">
-                    </div>
-                    <div class="food-description">
-                        <h2 class="food-title">Fried rice</h2>
-                        <p>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
-                            Restaurant special healthy fried rice. made by
-                            rice, oil, jira, spices.</p>
-                        <p class="food-price"> Price: &#8377;170 </p>
-                        <div class="orderbtn">
-                            <button><a href="./order.html">Order</a></button>
+            </nav>
+        </header>
+
+        <!-- category section -->
+        <section id="food">
+            <h2 id="heading">Food <span style="color: rgb(245, 197, 41);">C</span>ategory</h2>
+            <div class="food-container ">
+                <div class="food-type veg">
+                    <div class="img-container">
+                        <img src="./../Images/veg.jpg" alt="veg">
+                        <div class="img-content">
+                            <h3>Veg</h3>
+                            <button><a href="#veg">Learn More</a></button>
                         </div>
                     </div>
                 </div>
-
-                <div class="food-menu-item">
-                    <div class="food-img">
-                        <img src="https://recipesofhome.com/wp-content/uploads/2020/03/vegetable-soup-recipe-735x490.jpg"
-                            alt="vegsoup">
-                    </div>
-                    <div class="food-description">
-                        <h2 class="food-title">Vegetables soup</h2>
-                        <p>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
-                            Restaurant special healthy vegetables soup. made
-                            by mix more vegetables.</p>
-                        <p class="food-price"> Price: &#8377;130 </p>
-                        <div class="orderbtn">
-                            <button><a href="./order.html">Order</a></button>
+                <div class="food-type nonVeg">
+                    <div class="img-container">
+                        <img src="./../Images/non-veg.jpg" alt="non-veg">
+                        <div class="img-content">
+                            <h3>Non-veg</h3>
+                            <button> <a href="#nonveg">Learn More</a></button>
                         </div>
                     </div>
                 </div>
-
-                <div class="food-menu-item">
-                    <div class="food-img">
-                        <img src="https://5.imimg.com/data5/HW/II/SH/SELLER-9770898/veg-thali-500x500.jpg"
-                            alt="vegthali">
-                    </div>
-                    <div class="food-description">
-                        <h2 class="food-title">Veg thali</h2>
-                        <p>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
-                            Restaurant special healthy veg thali. including
-                            rice, pulses, vegetables, roti, sweet.</p>
-                        <p class="food-price"> Price: &#8377;210 </p>
-                        <div class="orderbtn">
-                            <button><a href="./order.html">Order</a></button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="food-menu-item">
-                    <div class="food-img">
-                        <img src="https://i.ytimg.com/vi/rQ8Kp-ff3As/maxresdefault.jpg" alt="shevbhaji">
-                    </div>
-                    <div class="food-description">
-                        <h2 class="food-title">Shev bhaji</h2>
-                        <p>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
-                            Restaurant special healthy shev bhaji. made by
-                            shev, spices, tomato, onion, oil.</p>
-                        <p class="food-price"> Price: &#8377;265 </p>
-                        <div class="orderbtn">
-                            <button><a href="./order.html">Order</a></button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="food-menu-item">
-                    <div class="food-img">
-                        <img src="https://static.toiimg.com/thumb/87621413.cms?imgsize=81300&width=800&height=800"
-                            alt="mixveg">
-                    </div>
-                    <div class="food-description">
-                        <h2 class="food-title">Mix-veg</h2>
-                        <p>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
-                            Restaurant special mix veg sabji. made by gajar,
-                            matar, gobi, tomato, etc.</p>
-                        <p class="food-price"> Price: &#8377;232 </p>
-                        <div class="orderbtn">
-                            <button><a href="./order.html">Order</a></button>
+                <div class="food-type fastFood">
+                    <div class="img-container">
+                        <img src="./../Images/fast-food.jpg" alt="fast-food">
+                        <div class="img-content">
+                            <h3>Fast food</h3>
+                            <button> <a href="#fastfood">Learn More</a></button>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-    </div>
 
-    <!--non-veg box-->
-    <div id="nonveg">
-        <section id="food-menu">
-            <h2 id="heading"><span style="color: rgb(245, 197, 41);">N</span>on-veg Menu</h2>
-            <div class="food-menu-container ">
-                <div class="food-menu-item">
-                    <div class="food-img">
-                        <img src="https://hyderabadiruchulu.com/wp-content/uploads/2017/12/Egg-Omelette-Recipe-in-Telugu.jpg"
-                            alt="eggomelette">
-                    </div>
-                    <div class="food-description">
-                        <h2 class="food-title">Egg omelette</h2>
-                        <p>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
-                            Restaurant special healthy egg omelette.
-                            made by eggs, spices, onion, oil, etc.</p>
-                        <p class="food-price"> Price: &#8377;90 </p>
-                        <div class="orderbtn">
-                            <button><a href="./order.html">Order</a></button>
+        <!-- menu section -->
+        <!--veg box-->
+        <div id="veg">
+            <section id="food-menu">
+                <h2 id="heading"><span style="color: rgb(245, 197, 41);">V</span>eg
+                    Menu</h2>
+                <div class="food-menu-container ">
+                    <div class="food-menu-item">
+                        <div class="food-img">
+                            <img
+                                src="https://www.sanjanafeasts.co.uk/wp-content/uploads/2018/05/Creamy-Restaurant-Style-Matar-Paneer-1.jpg"
+                                alt="paneer">
                         </div>
+                        <div class="food-description">
+                            <h2 class="food-title">Masala Paneer</h2>
+                            <p>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
+                                Restaurant special healthy veg masala paneer.
+                                made by paneer, spices, onion, tomato etc.</p>
+                            <p class="food-price"> Price: &#8377;250 </p>
+                            <div class="orderbtn">
+                                <button><a href="./order.html">Order</a></button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="food-menu-item">
+                        <div class="food-img">
+                            <img
+                                src="https://www.licious.in/blog/wp-content/uploads/2022/12/Shutterstock_1043177881.jpg"
+                                alt="friedrice">
+                        </div>
+                        <div class="food-description">
+                            <h2 class="food-title">Fried rice</h2>
+                            <p>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
+                                Restaurant special healthy fried rice. made by
+                                rice, oil, jira, spices.</p>
+                            <p class="food-price"> Price: &#8377;170 </p>
+                            <div class="orderbtn">
+                                <button><a href="./order.html">Order</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-menu-item">
+                        <div class="food-img">
+                            <img
+                                src="https://recipesofhome.com/wp-content/uploads/2020/03/vegetable-soup-recipe-735x490.jpg"
+                                alt="vegsoup">
+                        </div>
+                        <div class="food-description">
+                            <h2 class="food-title">Vegetables soup</h2>
+                            <p>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
+                                Restaurant special healthy vegetables soup. made
+                                by mix more vegetables.</p>
+                            <p class="food-price"> Price: &#8377;130 </p>
+                            <div class="orderbtn">
+                                <button><a href="./order.html">Order</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-menu-item">
+                        <div class="food-img">
+                            <img
+                                src="https://5.imimg.com/data5/HW/II/SH/SELLER-9770898/veg-thali-500x500.jpg"
+                                alt="vegthali">
+                        </div>
+                        <div class="food-description">
+                            <h2 class="food-title">Veg thali</h2>
+                            <p>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
+                                Restaurant special healthy veg thali. including
+                                rice, pulses, vegetables, roti, sweet.</p>
+                            <p class="food-price"> Price: &#8377;210 </p>
+                            <div class="orderbtn">
+                                <button><a href="./order.html">Order</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-menu-item">
+                        <div class="food-img">
+                            <img
+                                src="https://i.ytimg.com/vi/rQ8Kp-ff3As/maxresdefault.jpg"
+                                alt="shevbhaji">
+                        </div>
+                        <div class="food-description">
+                            <h2 class="food-title">Shev bhaji</h2>
+                            <p>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
+                                Restaurant special healthy shev bhaji. made by
+                                shev, spices, tomato, onion, oil.</p>
+                            <p class="food-price"> Price: &#8377;265 </p>
+                            <div class="orderbtn">
+                                <button><a href="./order.html">Order</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-menu-item">
+                        <div class="food-img">
+                            <img
+                                src="https://static.toiimg.com/thumb/87621413.cms?imgsize=81300&width=800&height=800"
+                                alt="mixveg">
+                        </div>
+                        <div class="food-description">
+                            <h2 class="food-title">Mix-veg</h2>
+                            <p>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
+                                Restaurant special mix veg sabji. made by gajar,
+                                matar, gobi, tomato, etc.</p>
+                            <p class="food-price"> Price: &#8377;232 </p>
+                            <div class="orderbtn">
+                                <button><a href="./order.html">Order</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!--non-veg box-->
+        <div id="nonveg">
+            <section id="food-menu">
+                <h2 id="heading"><span style="color: rgb(245, 197, 41);">N</span>on-veg
+                    Menu</h2>
+                <div class="food-menu-container ">
+                    <div class="food-menu-item">
+                        <div class="food-img">
+                            <img
+                                src="https://hyderabadiruchulu.com/wp-content/uploads/2017/12/Egg-Omelette-Recipe-in-Telugu.jpg"
+                                alt="eggomelette">
+                        </div>
+                        <div class="food-description">
+                            <h2 class="food-title">Egg omelette</h2>
+                            <p>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
+                                Restaurant special healthy egg omelette.
+                                made by eggs, spices, onion, oil, etc.</p>
+                            <p class="food-price"> Price: &#8377;90 </p>
+                            <div class="orderbtn">
+                                <button><a href="./order.html">Order</a></button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="food-menu-item">
+                        <div class="food-img">
+                            <img
+                                src="https://cookwithsan.com/wp-content/uploads/2021/10/easy-chicken-curry-without-tomato.jpg"
+                                alt="chicken">
+                        </div>
+                        <div class="food-description">
+                            <h2 class="food-title">Chicken</h2>
+                            <p>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
+                                Restaurant special healthy chicken. made by
+                                meat, oil, onion, spices</p>
+                            <p class="food-price"> Price: &#8377;430 </p>
+                            <div class="orderbtn">
+                                <button><a href="./order.html">Order</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-menu-item">
+                        <div class="food-img">
+                            <img
+                                src="https://s3-ap-south-1.amazonaws.com/betterbutterbucket-silver/rojalin-rout1519294531_thumb.jpeg"
+                                alt="fish">
+                        </div>
+                        <div class="food-description">
+                            <h2 class="food-title">Fish</h2>
+                            <p>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
+                                Restaurant special healthy fish. its local name
+                                chhinga, made
+                                by fish, oil, onion, salt, spices.</p>
+                            <p class="food-price"> Price: &#8377;340 </p>
+                            <div class="orderbtn">
+                                <button><a href="./order.html">Order</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-menu-item">
+                        <div class="food-img">
+                            <img
+                                src="https://c.ndtvimg.com/2023-01/oqp7e4cg_mutton-curry_625x300_21_January_23.jpg"
+                                alt="mutton">
+                        </div>
+                        <div class="food-description">
+                            <h2 class="food-title">Mutton</h2>
+                            <p>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
+                                Restaurant special healthy mutton. made by fresh
+                                meats, more spices, oil, etc.</p>
+                            <p class="food-price"> Price: &#8377;570 </p>
+                            <div class="orderbtn">
+                                <button><a href="./order.html">Order</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-menu-item">
+                        <div class="food-img">
+                            <img
+                                src="https://recipes.timesofindia.com/thumb/msid-53096628,width-1600,height-900/53096628.jpg"
+                                alt="Biriyani">
+                        </div>
+                        <div class="food-description">
+                            <h2 class="food-title">Chicken Biriyani</h2>
+                            <p>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
+                                Restaurant special healthy chicken biriyani.
+                                made by
+                                rice, spices, meats, oil.</p>
+                            <p class="food-price"> Price: &#8377;385 </p>
+                            <div class="orderbtn">
+                                <button><a href="./order.html">Order</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-menu-item">
+                        <div class="food-img">
+                            <img
+                                src="https://thebigmansworld.com/wp-content/uploads/2022/11/tandoori-chicken-recipe.jpg"
+                                alt="Tandoorichicken">
+                        </div>
+                        <div class="food-description">
+                            <h2 class="food-title">Tandoori chicken</h2>
+                            <p>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
+                                Restaurant special fresh Tandoori chicken. made
+                                by chicken,
+                                spices, oil, etc.</p>
+                            <p class="food-price"> Price: &#8377;480 </p>
+                            <div class="orderbtn">
+                                <button><a href="./order.html">Order</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!--fast-food box-->
+        <div id="fastfood">
+            <section id="food-menu">
+                <h2 id="heading"><span style="color: rgb(245, 197, 41);">F</span>ast
+                    Food Menu</h2>
+                <div class="food-menu-container ">
+                    <div class="food-menu-item">
+                        <div class="food-img">
+                            <img
+                                src="https://static.toiimg.com/thumb/51892394.cms?resizemode=75&width=1200&height=900"
+                                alt="pizza">
+                        </div>
+                        <div class="food-description">
+                            <h2 class="food-title"> Cheese Pizza</h2>
+                            <p>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
+                                Restaurant special healthy pizza.
+                                made by onion, mushrom, tomato, cheese,butter
+                                etc.</p>
+                            <p class="food-price"> Price: &#8377;260 </p>
+                            <div class="orderbtn">
+                                <button><a href="./order.html">Order</a></button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="food-menu-item">
+                        <div class="food-img">
+                            <img
+                                src="https://www.chicken.ca/wp-content/uploads/2013/05/Moist-Chicken-Burgers.jpg"
+                                alt="burger">
+                        </div>
+                        <div class="food-description">
+                            <h2 class="food-title">Burger</h2>
+                            <p>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
+                                Restaurant special healthy burger. made by
+                                beef, cheese, lettuce, tomato, vegs, spices.</p>
+                            <p class="food-price"> Price: &#8377;220 </p>
+                            <div class="orderbtn">
+                                <button><a href="./order.html">Order</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-menu-item">
+                        <div class="food-img">
+                            <img
+                                src="https://tiffycooks.com/wp-content/uploads/2021/09/Screen-Shot-2021-09-21-at-5.21.37-PM.png"
+                                alt="noodles">
+                        </div>
+                        <div class="food-description">
+                            <h2 class="food-title">Noodles</h2>
+                            <p>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
+                                Restaurant special healthy noodles. made
+                                by tomato sauce, flour sawai, oil, chili sauce.</p>
+                            <p class="food-price"> Price: &#8377;80 </p>
+                            <div class="orderbtn">
+                                <button><a href="./order.html">Order</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-menu-item">
+                        <div class="food-img">
+                            <img
+                                src="https://holycowvegan.net/wp-content/uploads/2020/03/veg-manchurian-1.jpg"
+                                alt="manchurian">
+                        </div>
+                        <div class="food-description">
+                            <h2 class="food-title">Manchurian</h2>
+                            <p>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
+                                Restaurant special healthy manchurian. made by
+                                cabbage , sauce, spring onion, salt, carrot.</p>
+                            <p class="food-price"> Price: &#8377;185 </p>
+                            <div class="orderbtn">
+                                <button><a href="./order.html">Order</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-menu-item">
+                        <div class="food-img">
+                            <img
+                                src="https://thefoodxp.com/wp-content/uploads/2023/06/McDonalds-French-Fries.jpg"
+                                alt="frenchfries">
+                        </div>
+                        <div class="food-description">
+                            <h2 class="food-title">French fries</h2>
+                            <p>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
+                                Restaurant special healthy french fries. made by
+                                potato, sauce, oil, etc.</p>
+                            <p class="food-price"> Price: &#8377;110 </p>
+                            <div class="orderbtn">
+                                <button><a href="./order.html">Order</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-menu-item">
+                        <div class="food-img">
+                            <img
+                                src="https://static.toiimg.com/thumb/54714340.cms?width=1200&height=900"
+                                alt="sandwich">
+                        </div>
+                        <div class="food-description">
+                            <h2 class="food-title">Sandwich</h2>
+                            <p>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
+                                Restaurant special fresh sandwich. made by
+                                cheese,
+                                sauce, paneer, bread, tomato, etc.</p>
+                            <p class="food-price"> Price: &#8377;279 </p>
+                            <div class="orderbtn">
+                                <button><a href="./order.html">Order</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!--Footer secrion-->
+        <div class="footer-container">
+            <h1>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
+                Restaurant</h1>
+            <div class="footer">
+
+                <div class="links">
+
+                    <h2>Quick-Links</h2>
+                    <br>
+                    <div class="sub-links">
+                        <a href="./../index.html" class>Home</a>
+                        <br><br>
+                        <a href="./menu.html" class>Menu</a>
+                        <br><br>
+                        <a href="./order.html" class>Order</a>
+                        <br><br>
+                        <a href="./../index.html" class>About</a>
+                    </div>
+                </div>
+
+                <div class="links">
+
+                    <h2>Online Shop</h2>
+                    <br>
+                    <div class="sub-links">
+                        <a href="#veg">Veg</a>
+                        <br><br>
+                        <a href="#nonveg">Non-veg</a>
+                        <br><br>
+                        <a href="#fastfood">Fast food</a>
+                    </div>
+                </div>
+
+                <div class="links">
+
+                    <h2>Contact Info</h2>
+                    <br>
+                    <div class="sub-links">
+                        <a href>+91 1234-5689-27</a>
+                        <br><br>
+                        <a href="https://mail.google.com/mail/u/0/#inbox"
+                            target=" ">thekitchen@gmail.com</a>
+                    </div>
+                </div>
+
+                <div class="links">
+
+                    <h2>Subscribe For Latest Updates</h2>
+                    <br>
+                    <input type="email" placeholder="Enter Your mail"
+                        class="links-email">
+
+                    <br><br>
+
+                    <div class="buy-now-btn">
+                        <button class="subs">Subscribe</button>
                     </div>
 
                 </div>
 
-                <div class="food-menu-item">
-                    <div class="food-img">
-                        <img src="https://cookwithsan.com/wp-content/uploads/2021/10/easy-chicken-curry-without-tomato.jpg"
-                            alt="chicken">
-                    </div>
-                    <div class="food-description">
-                        <h2 class="food-title">Chicken</h2>
-                        <p>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
-                            Restaurant special healthy chicken. made by
-                            meat, oil, onion, spices</p>
-                        <p class="food-price"> Price: &#8377;430 </p>
-                        <div class="orderbtn">
-                            <button><a href="./order.html">Order</a></button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="food-menu-item">
-                    <div class="food-img">
-                        <img src="https://s3-ap-south-1.amazonaws.com/betterbutterbucket-silver/rojalin-rout1519294531_thumb.jpeg"
-                            alt="fish">
-                    </div>
-                    <div class="food-description">
-                        <h2 class="food-title">Fish</h2>
-                        <p>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
-                            Restaurant special healthy fish. its local name
-                            chhinga, made
-                            by fish, oil, onion, salt, spices.</p>
-                        <p class="food-price"> Price: &#8377;340 </p>
-                        <div class="orderbtn">
-                            <button><a href="./order.html">Order</a></button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="food-menu-item">
-                    <div class="food-img">
-                        <img src="https://c.ndtvimg.com/2023-01/oqp7e4cg_mutton-curry_625x300_21_January_23.jpg"
-                            alt="mutton">
-                    </div>
-                    <div class="food-description">
-                        <h2 class="food-title">Mutton</h2>
-                        <p>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
-                            Restaurant special healthy mutton. made by fresh
-                            meats, more spices, oil, etc.</p>
-                        <p class="food-price"> Price: &#8377;570 </p>
-                        <div class="orderbtn">
-                            <button><a href="./order.html">Order</a></button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="food-menu-item">
-                    <div class="food-img">
-                        <img src="https://recipes.timesofindia.com/thumb/msid-53096628,width-1600,height-900/53096628.jpg"
-                            alt="Biriyani">
-                    </div>
-                    <div class="food-description">
-                        <h2 class="food-title">Chicken Biriyani</h2>
-                        <p>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
-                            Restaurant special healthy chicken biriyani.
-                            made by
-                            rice, spices, meats, oil.</p>
-                        <p class="food-price"> Price: &#8377;385 </p>
-                        <div class="orderbtn">
-                            <button><a href="./order.html">Order</a></button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="food-menu-item">
-                    <div class="food-img">
-                        <img src="https://thebigmansworld.com/wp-content/uploads/2022/11/tandoori-chicken-recipe.jpg"
-                            alt="Tandoorichicken">
-                    </div>
-                    <div class="food-description">
-                        <h2 class="food-title">Tandoori chicken</h2>
-                        <p>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
-                            Restaurant special fresh Tandoori chicken. made
-                            by chicken,
-                            spices, oil, etc.</p>
-                        <p class="food-price"> Price: &#8377;480 </p>
-                        <div class="orderbtn">
-                            <button><a href="./order.html">Order</a></button>
-                        </div>
-                    </div>
-                </div>
             </div>
-        </section>
-    </div>
 
-    <!--fast-food box-->
-    <div id="fastfood">
-        <section id="food-menu">
-            <h2 id="heading"><span style="color: rgb(245, 197, 41);">F</span>ast Food Menu</h2>
-            <div class="food-menu-container ">
-                <div class="food-menu-item">
-                    <div class="food-img">
-                        <img src="https://static.toiimg.com/thumb/51892394.cms?resizemode=75&width=1200&height=900"
-                            alt="pizza">
-                    </div>
-                    <div class="food-description">
-                        <h2 class="food-title"> Cheese Pizza</h2>
-                        <p>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
-                            Restaurant special healthy pizza.
-                            made by onion, mushrom, tomato, cheese,butter
-                            etc.</p>
-                        <p class="food-price"> Price: &#8377;260 </p>
-                        <div class="orderbtn">
-                            <button><a href="./order.html">Order</a></button>
-                        </div>
-                    </div>
+            <!--Social Handle-->
+            <div class="social-menu">
 
-                </div>
-
-                <div class="food-menu-item">
-                    <div class="food-img">
-                        <img src="https://www.chicken.ca/wp-content/uploads/2013/05/Moist-Chicken-Burgers.jpg"
-                            alt="burger">
-                    </div>
-                    <div class="food-description">
-                        <h2 class="food-title">Burger</h2>
-                        <p>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
-                            Restaurant special healthy burger. made by
-                            beef, cheese, lettuce, tomato, vegs, spices.</p>
-                        <p class="food-price"> Price: &#8377;220 </p>
-                        <div class="orderbtn">
-                            <button><a href="./order.html">Order</a></button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="food-menu-item">
-                    <div class="food-img">
-                        <img src="https://tiffycooks.com/wp-content/uploads/2021/09/Screen-Shot-2021-09-21-at-5.21.37-PM.png"
-                            alt="noodles">
-                    </div>
-                    <div class="food-description">
-                        <h2 class="food-title">Noodles</h2>
-                        <p>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
-                            Restaurant special healthy noodles. made
-                            by tomato sauce, flour sawai, oil, chili sauce.</p>
-                        <p class="food-price"> Price: &#8377;80 </p>
-                        <div class="orderbtn">
-                            <button><a href="./order.html">Order</a></button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="food-menu-item">
-                    <div class="food-img">
-                        <img src="https://holycowvegan.net/wp-content/uploads/2020/03/veg-manchurian-1.jpg"
-                            alt="manchurian">
-                    </div>
-                    <div class="food-description">
-                        <h2 class="food-title">Manchurian</h2>
-                        <p>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
-                            Restaurant special healthy manchurian. made by
-                            cabbage , sauce, spring onion, salt, carrot.</p>
-                        <p class="food-price"> Price: &#8377;185 </p>
-                        <div class="orderbtn">
-                            <button><a href="./order.html">Order</a></button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="food-menu-item">
-                    <div class="food-img">
-                        <img src="https://thefoodxp.com/wp-content/uploads/2023/06/McDonalds-French-Fries.jpg"
-                            alt="frenchfries">
-                    </div>
-                    <div class="food-description">
-                        <h2 class="food-title">French fries</h2>
-                        <p>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
-                            Restaurant special healthy french fries. made by
-                            potato, sauce, oil, etc.</p>
-                        <p class="food-price"> Price: &#8377;110 </p>
-                        <div class="orderbtn">
-                            <button><a href="./order.html">Order</a></button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="food-menu-item">
-                    <div class="food-img">
-                        <img src="https://static.toiimg.com/thumb/54714340.cms?width=1200&height=900" alt="sandwich">
-                    </div>
-                    <div class="food-description">
-                        <h2 class="food-title">Sandwich</h2>
-                        <p>The-<span style="color: rgb(245, 197, 41);">K</span>itchen
-                            Restaurant special fresh sandwich. made by
-                            cheese,
-                            sauce, paneer, bread, tomato, etc.</p>
-                        <p class="food-price"> Price: &#8377;279 </p>
-                        <div class="orderbtn">
-                            <button><a href="./order.html">Order</a></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-
-    <!--Footer secrion-->
-    <div class="footer-container">
-        <h1>The-<span style="color: rgb(245, 197, 41);">K</span>itchen Restaurant</h1>
-        <div class="footer">
-
-            <div class="links">
-
-                <h2>Quick-Links</h2>
-                <br>
-                <div class="sub-links">
-                    <a href="./../index.html" class>Home</a>
-                    <br><br>
-                    <a href="./menu.html" class>Menu</a>
-                    <br><br>
-                    <a href="./order.html" class>Order</a>
-                    <br><br>
-                    <a href="./../index.html" class>About</a>
-                </div>
-            </div>
-
-            <div class="links">
-
-                <h2>Online Shop</h2>
-                <br>
-                <div class="sub-links">
-                    <a href="#veg">Veg</a>
-                    <br><br>
-                    <a href="#nonveg">Non-veg</a>
-                    <br><br>
-                    <a href="#fastfood">Fast food</a>
-                </div>
-            </div>
-
-            <div class="links">
-
-                <h2>Contact Info</h2>
-                <br>
-                <div class="sub-links">
-                    <a href>+91 1234-5689-27</a>
-                    <br><br>
-                    <a href="https://mail.google.com/mail/u/0/#inbox" target=" ">thekitchen@gmail.com</a>
-                </div>
-            </div>
-
-            <div class="links">
-
-                <h2>Subscribe For Latest Updates</h2>
-                <br>
-                <input type="email" placeholder="Enter Your mail" class="links-email">
-
-                <br><br>
-
-                <div class="buy-now-btn">
-                    <button class="subs">Subscribe</button>
-                </div>
+                <ul>
+                    <li><a href="https://github.com/sakshi-rah" target="_blank"><i
+                                class="fab fa-github"></i></a></li>
+                    <li><a
+                            href="https://www.linkedin.com/in/sakshi-rahangdale-61a68a221/"
+                            target="_blank"><i
+                                class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><i
+                                class="fab fa-instagram"></i></a></li>
+                    <li><a
+                            href="https://www.facebook.com/sakshi.rahangdale.9699/"
+                            target="_blank"><i
+                                class="fab fa-facebook"></i></a></li>
+                </ul>
 
             </div>
 
         </div>
 
-        <!--Social Handle-->
-        <div class="social-menu">
-
-            <ul>
-                <li><a href="https://github.com/sakshi-rah" target="_blank"><i class="fab fa-github"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/sakshi-rahangdale-61a68a221/" target="_blank"><i
-                            class="fab fa-linkedin-in"></i></a></li>
-                <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="https://www.facebook.com/sakshi.rahangdale.9699/" target="_blank"><i
-                            class="fab fa-facebook"></i></a></li>
-            </ul>
-
-        </div>
-
-    </div>
-
-    <script src="./../Script/menu.js"></script>
-    <script src="./../Script/home.js"></script>
-</body>
+        <script src="./../Script/menu.js"></script>
+        <script src="./../Script/home.js"></script>
+    </body>
 
 </html>

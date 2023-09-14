@@ -52,22 +52,13 @@ nav {
 }
 
 .user {
-    margin-right: 1rem;
+    margin-left: 5rem;
 }
 
 /* Style the menu bar (initially hidden on large screens) */
 .menu-bar {
     display: none;
     cursor: pointer;
-}
-
-/* Style the hamburger icon */
-.hamburger {
-    width: 30px;
-    height: 3px;
-    background-color: #fff;
-    margin: 5px 0;
-    transition: 0.4s;
 }
 
 
@@ -94,9 +85,17 @@ nav {
 
 
 @media screen and (max-width: 768px) {
+    .app_name {
+        margin-left: 0.5rem;
+    }
+
     .menu-bar {
         display: block;
         /* Show the menu bar */
+    }
+
+    .hamburger {
+        margin-right: 1rem;
     }
 
     .items {
@@ -129,7 +128,8 @@ nav {
     }
 
     .user {
-        margin-left: 1rem;
+        margin-left: 0.1rem;
+        font-size: 1.3rem;
     }
 
     .hamburger.active .line1 {
