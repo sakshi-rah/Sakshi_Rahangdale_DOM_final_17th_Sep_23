@@ -275,7 +275,7 @@ nav {
     .img-container::after {
         width: 20rem;
         height: 20rem;
-        left: 30px;
+        left: 20px;
 
     }
 }

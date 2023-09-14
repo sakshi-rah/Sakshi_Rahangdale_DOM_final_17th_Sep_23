@@ -516,13 +516,14 @@ nav {
 .reservation-container {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 5rem;
     justify-content: space-around;
-    margin: 5rem;
+    border: 1px solid #fff;
+    margin-bottom: 5rem;
+    padding: 3rem;
+
 }
 
-.reservation-detail {
-    background-color: #e4405f;
-}
 
 .reservation-form {
     color: #cac4c4;
@@ -530,6 +531,9 @@ nav {
     width: 50%;
     padding-bottom: 20px;
     padding-top: 20px;
+    border: 1px solid #fff;
+
+    
 }
 
 .reservation-form h2 {
@@ -598,7 +602,7 @@ nav {
 }
 
 .reservationImg img {
-    width: 550px;
+    width: 500px;
     border-radius: 10px;
 }
 
@@ -611,14 +615,13 @@ nav {
 
     .reservation-form {
         width: 100%;
-        border: 1px solid #fff;
         margin-top: 1rem;
     }
     .reservation-form h2 {
         font-size: 1.2rem;
     }
     .reservationImg img {
-        width: 370px;
+        width: 350px;
         border-radius: 10px;
     }
     
