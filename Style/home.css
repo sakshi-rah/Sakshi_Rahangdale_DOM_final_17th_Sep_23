@@ -321,9 +321,11 @@ nav {
         font-size: 1.6rem;
         width: 20rem;
     }
+
     #specialoff:hover {
         transform: scale(1.1);
     }
+
     #specialoffpara {
         font-size: 1.1rem;
     }
@@ -339,22 +341,22 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-
 }
 
 #about h1 {
-    font-size: 2.2rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
 
 #about h2 {
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     font-weight: 300;
+    margin-bottom: 1rem;
 }
 
 #about p {
     font-size: 1.2rem;
-    color: #cfc9c9;
+    color: #aba9a9;
     margin-top: 20px;
 }
 
@@ -417,7 +419,7 @@ nav {
 .about-text {
     flex: 1 1 400px;
     padding: 30px;
-    margin-top: 3rem;
+    margin-top: 1rem;
     transform: translate(-150px);
     animation: about-text-animation 1s ease-in-out forwards;
 
@@ -530,7 +532,7 @@ nav {
     width: 50%;
     padding-bottom: 20px;
     padding-top: 20px;
-  
+
 }
 
 .reservation-form h2 {
@@ -614,14 +616,16 @@ nav {
         width: 100%;
         margin-top: 1rem;
     }
+
     .reservation-form h2 {
         font-size: 1.2rem;
     }
+
     .reservationImg img {
         width: 350px;
         border-radius: 10px;
     }
-    
+
     .reservationImg:hover {
         transition: all 0.5s 0.1s ease-out;
         transform: scale(1.07);
