@@ -464,3 +464,188 @@ input:hover {
     }
 
 }
+
+/*footer*/
+
+.footer-container {
+    background-image: url('./../Images/login-signup.jpg');
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    padding: 1rem;
+}
+
+.footer-container h1 {
+    margin-left: 2.5rem;
+}
+
+.footer {
+    height: auto;
+    padding: 30px;
+    display: flex;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.links {
+    margin: auto;
+    width: 280px;
+    height: 245px;
+}
+
+.links h2 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.sub-links {
+    width: 200px;
+    height: 200px;
+}
+
+.sub-links a {
+    font-size: 15px;
+    font-weight: 700;
+    color: rgba(152, 152, 152, 0.979);
+    text-decoration: none;
+}
+
+.sub-links a:hover {
+    color: rgba(220, 218, 218, 0.979);
+}
+
+.logo {
+    width: 50px;
+}
+
+.links-email {
+    width: 270px;
+    height: 47px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 0%;
+}
+
+.links-email:hover {
+    border: 2px solid rgb(245, 197, 41);
+
+}
+
+.subs {
+    width: 270px;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    font-size: 22px;
+    font-weight: 700;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(245, 197, 41);
+}
+
+.subs:hover {
+    background-color: rgb(246, 212, 100);
+}
+
+/*Socials*/
+
+.social-menu {
+    width: 450px;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+}
+
+.social-menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+.social-menu ul li {
+    list-style: none;
+    margin: auto auto;
+}
+
+.social-menu ul li .fab {
+    font-size: 30px;
+    line-height: 50px;
+    transition: .3px;
+    color: #000;
+}
+
+.social-menu ul li .fab:hover {
+    color: #fff;
+}
+
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 0 5px 4px rgba(95, 94, 94, 0.767);
+}
+
+.social-menu ul li a:hover {
+    transform: translate(0, -10%);
+}
+
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: rgba(0, 0, 0, 0.829);
+}
+
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #0077b5;
+}
+
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #e4405f;
+}
+
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #002E6E;
+}
+
+@media (max-width:530px) {
+    .social-menu {
+        width: 250px;
+        height: auto;
+    }
+
+    .social-menu ul {
+        margin: auto;
+    }
+
+    .social-menu ul li .fab {
+        font-size: 20px;
+    }
+
+    .social-menu ul li a {
+        width: 35px;
+        margin-left: 10px;
+    }
+
+    .subs {
+        width: 200px;
+    }
+
+    .links-email {
+        width: 200px;
+
+    }
+
+    .footer-container h1 {
+        font-size: 18px;
+        margin-left: 1.5rem;
+    }
+}
