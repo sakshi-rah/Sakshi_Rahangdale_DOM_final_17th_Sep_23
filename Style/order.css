@@ -51,6 +51,10 @@ nav {
     color: rgb(245, 197, 41);
 }
 
+.user {
+    margin-right: 1rem;
+}
+
 /* Style the menu bar (initially hidden on large screens) */
 .menu-bar {
     display: none;
