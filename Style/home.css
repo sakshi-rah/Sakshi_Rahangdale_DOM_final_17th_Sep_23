@@ -232,25 +232,27 @@ nav {
 }
 
 /* offers section */
-section p {
-    text-align: center;
-    font-size: 1.3rem;
-    margin-top: 2.5rem;
-}
 
-#specialoff{
+#specialoff {
     text-align: center;
     font-size: 2rem;
     width: 25rem;
     margin: auto;
 }
 
-#specialoff:hover{
+#specialoffpara {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 2.5rem;
+}
+
+#specialoff:hover {
     transition: all 0.4s 0s linear;
     transform: scale(1.2);
     border-bottom: 2px solid rgb(245, 197, 41);
     cursor: pointer;
 }
+
 .offers {
     margin: 20px auto;
     display: flex;
@@ -270,16 +272,19 @@ section p {
     box-shadow: 1px 1px 7px #cac4c4;
     text-align: center;
 }
-.offer h3{
+
+.offer h3 {
     margin: 0.5rem;
     font-size: 1.3rem;
 
 }
-.offer p{
+
+.offer p {
     margin-top: 1rem;
     font-size: 1.1rem;
     color: #c0bcbc;
 }
+
 .offer img {
     max-width: 17rem;
     height: 17rem;
@@ -309,6 +314,13 @@ section p {
 .orderbtn a button {
     text-decoration: none;
     color: #fff;
+}
+
+@media (max-width:530px) {
+    #specialoff {
+        font-size: 1.6rem;
+        width: 22rem;
+    }
 }
 
 /* about section */
