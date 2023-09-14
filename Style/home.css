@@ -319,7 +319,13 @@ nav {
 @media (max-width:530px) {
     #specialoff {
         font-size: 1.6rem;
-        width: 22rem;
+        width: 20rem;
+    }
+    #specialoff:hover {
+        transform: scale(1.1);
+    }
+    #specialoffpara {
+        font-size: 1.1rem;
     }
 }
 
