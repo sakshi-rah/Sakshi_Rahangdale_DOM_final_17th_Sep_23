@@ -11,30 +11,6 @@ body {
 
 }
 
-.uparrowicon {
-    background-color: black;
-    border-radius: 50%;
-    width: 50px;
-    padding: 10px;
-    font-size: 25px;
-    text-align: center;
-    position: fixed;
-    right: 1.5rem;
-    bottom: 2rem;
-    cursor: pointer;
-    z-index: 1;
-}
-
-.uparrowicon i {
-    color: #fff;
-    text-decoration: none;
-}
-
-.uparrowicon:hover {
-    transition: all 0.5s 0.2s linear;
-    transform: scale(1.3);
-    box-shadow: 1px 1px 7px #cac4c4;
-}
 
 /*address section*/
 #topbar {
@@ -187,6 +163,39 @@ nav {
     .hamburger.active .line3 {
         transform: rotate(45deg) translate(-5px, -6px);
     }
+}
+
+/*go to top*/
+.back-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 4;
+}
+
+.back-top-btn i {
+    color: #ffffff;
+}
+
+.back-top-btn:is(:hover, :focus-visible) {
+    background-color: rgb(245, 197, 41);
+    transition: all 0.6s 0s linear;
+    transform: scale(1.05);
+}
+
+.back-top-btn.active {
+    opacity: 1;
+    visibility: visible;
 }
 
 /*home page*/
