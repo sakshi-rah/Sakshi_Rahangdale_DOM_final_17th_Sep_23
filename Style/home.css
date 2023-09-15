@@ -197,13 +197,7 @@ nav {
     opacity: 1;
     visibility: visible;
 }
-@media (max-width: 630px){
-    .back-top-btn {
-        position: fixed;
-        bottom: 20px;
-        right:  50px;
-    }
-}
+
 
 /*home page*/
 .hero {
