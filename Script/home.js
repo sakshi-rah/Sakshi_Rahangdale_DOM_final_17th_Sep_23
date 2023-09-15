@@ -40,4 +40,3 @@ function reserveTable() {
    
 }
 
-//"https://eduonixjsproject.netlify.app/"
