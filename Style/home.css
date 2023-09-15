@@ -375,6 +375,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-top: 3rem;
 }
 
 #about h1 {
@@ -483,6 +484,9 @@ nav {
 
 }
 
+.map-container{
+    text-align: center;
+}
 
 /* Customer view  */
 #testimonials {
