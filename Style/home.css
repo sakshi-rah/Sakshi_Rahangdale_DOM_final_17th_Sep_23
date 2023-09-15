@@ -481,11 +481,18 @@ nav {
 .about-img img:hover {
     transition: all 0.5s 0.1s ease-out;
     transform: scale(1.1);
+}
 
+@media(max-width: 530px) {
+    .about-img img:hover {
+        transition: all 0.5s 0.1s ease-out;
+        transform: scale(1.04);
+    }
 }
 
 .map-container {
     text-align: center;
+    margin-top: 1rem;
 }
 
 /* Customer view  */
