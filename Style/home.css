@@ -36,12 +36,38 @@ body {
     box-shadow: 1px 1px 7px #cac4c4;
 }
 
+/*address section*/
+#topbar {
+    margin: 0%;
+    padding: 0%;
+}
+
+.topbar-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3px;
+    justify-content: space-between;
+    color: #FFF;
+    background-color: rgb(245, 197, 41);
+}
+
+.topbar-item {
+    display: flex;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.icon {
+    margin-right: 5px;
+
+}
+
 /*navbar css*/
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px;
     color: white;
     overflow: hidden;
     margin: 5px;
@@ -84,7 +110,6 @@ nav {
 
 .btn {
     margin-right: 1rem;
-    padding: 6px;
     background-color: rgb(245, 197, 41);
     color: white;
     border: none;
@@ -96,7 +121,6 @@ nav {
 .btn a {
     text-decoration: none;
     color: white;
-    background-color: transparent;
 }
 
 .btn:hover {
@@ -418,6 +442,7 @@ nav {
 
 .about-text {
     flex: 1 1 400px;
+    text-align: justify;
     padding: 30px;
     margin-top: 1rem;
     transform: translate(-150px);

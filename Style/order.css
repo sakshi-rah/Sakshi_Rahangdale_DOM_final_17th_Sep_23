@@ -11,6 +11,33 @@ body {
 
 }
 
+/*address section*/
+#topbar {
+    margin: 0%;
+    padding: 0%;
+}
+
+.topbar-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3px;
+    justify-content: space-between;
+    color: #FFF;
+    background-color: rgb(245, 197, 41);
+}
+
+.topbar-item {
+    display: flex;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.icon {
+    margin-right: 5px;
+
+}
+
 /*navbar css*/
 nav {
     display: flex;
