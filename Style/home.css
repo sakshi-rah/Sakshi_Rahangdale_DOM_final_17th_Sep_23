@@ -62,6 +62,7 @@ nav {
 
 .user {
     margin-left: 5rem;
+    cursor: pointer;
 }
 
 .items a {
