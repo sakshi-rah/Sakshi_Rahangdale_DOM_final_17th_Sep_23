@@ -126,7 +126,48 @@ const menuArray = [
     emoji: "🥪",
     id: 17
   },
-
+  {
+    name: "Veg Pulao",
+    ingredients: ["rice", "gajar", "tomato"],
+    price: 150,
+    emoji: "🍲",
+    id: 18
+  },
+  {
+    name: "Chhole Bhature",
+    ingredients: ["chana", "maida", "tomato"],
+    price: 255,
+    emoji: "🥘",
+    id: 19
+  },
+  {
+    name: "Palak Paneer",
+    ingredients: ["palak", "paneer", "spices"],
+    price: 299,
+    emoji: "🥧",
+    id: 19
+  },
+  {
+    name: "Masala Aalu",
+    ingredients: ["aalu", "samar", "spices"],
+    price: 178,
+    emoji: "🥔",
+    id: 20
+  },
+  {
+    name: "Malabar Fish curry",
+    ingredients: ["fish", "oil", "spices"],
+    price: 499,
+    emoji: "🦈",
+    id: 21
+  },
+  {
+    name: "Malabar Fish curry",
+    ingredients: ["fish", "oil", "spices"],
+    price: 499,
+    emoji: "🦈",
+    id: 22
+  },   
 ];
 
 const containerEl = document.querySelector(".container");
