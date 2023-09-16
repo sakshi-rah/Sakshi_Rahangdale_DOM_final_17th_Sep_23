@@ -197,12 +197,61 @@ const menuArray = [
     id: 26
   },   
   {
-    name: "Samosa",
-    ingredients: ["maida", "potato","tomato"],
-    price: 80,
-    emoji: "🧀",
+    name: "Chocolate Cake",
+    ingredients: ["vinegar", "cocoa powder"],
+    price: 590,
+    emoji: "🎂",
     id: 27
-  },      
+  },
+  {
+    name: "Cupcake",
+    ingredients: ["cream", "cocoa powder"],
+    price: 268,
+    emoji: "🧁",
+    id: 28
+  },  
+  {
+    name: "Cookies",
+    ingredients: ["suger", "eggs", "flour"],
+    price: 195,
+    emoji: "🍪",
+    id: 29
+  }, 
+  {
+    name: "Chocolates",
+    ingredients: ["suger", "cream", "flour"],
+    price: 220,
+    emoji: "🍫",
+    id: 30
+  },
+  {
+    name: "Muffins",
+    ingredients: ["suger", "cream", "bread"],
+    price: 235,
+    emoji: "🧁",
+    id: 31
+  },
+  {
+    name: "Brownies",
+    ingredients: ["flour", "cream", "brown suger"],
+    price: 215,
+    emoji: "🍩",
+    id: 32
+  }, 
+  {
+    name: "Cheesecake",
+    ingredients: ["stoberry", "cream", "suger"],
+    price: 288,
+    emoji: "🍰",
+    id: 33
+  }, 
+  {
+    name: "Custard",
+    ingredients: ["milk", "eggs", "suger"],
+    price: 323,
+    emoji: "🍮",
+    id: 34
+  },            
 ];
 
 const containerEl = document.querySelector(".container");
