@@ -176,7 +176,7 @@ header h1:hover {
 
 @media(max-width: 530px) {
     .container{
-        width: 390px;
+        width: 380px;
     }
 }
 
