@@ -178,6 +178,10 @@ header h1:hover {
     .container{
         width: 380px;
     }
+    #history {
+        padding: 8px;
+    }
+    
 }
 
 #customer-info {
