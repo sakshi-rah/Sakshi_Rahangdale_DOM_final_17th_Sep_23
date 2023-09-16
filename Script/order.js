@@ -162,12 +162,47 @@ const menuArray = [
     id: 21
   },
   {
-    name: "Malabar Fish curry",
-    ingredients: ["fish", "oil", "spices"],
-    price: 499,
-    emoji: "🦈",
+    name: "Tunde Kabab",
+    ingredients: ["chicken", "oil", "spices"],
+    price: 515,
+    emoji: "🍖",
     id: 22
+  },
+  {
+    name: "Idli",
+    ingredients: ["rice", "urad dal",],
+    price: 110,
+    emoji: "🥮",
+    id: 23
+  },
+  {
+    name: "Masala Dosa",
+    ingredients: ["rice", "urad dal",],
+    price: 140,
+    emoji: "🥖",
+    id: 24
+  },
+  {
+    name: "Pav Bhaji",
+    ingredients: ["bread", "potato","tomato"],
+    price: 147,
+    emoji: "🥞",
+    id: 25
+  },
+  {
+    name: "Samosa",
+    ingredients: ["maida", "potato","tomato"],
+    price: 80,
+    emoji: "🧀",
+    id: 26
   },   
+  {
+    name: "Samosa",
+    ingredients: ["maida", "potato","tomato"],
+    price: 80,
+    emoji: "🧀",
+    id: 27
+  },      
 ];
 
 const containerEl = document.querySelector(".container");
