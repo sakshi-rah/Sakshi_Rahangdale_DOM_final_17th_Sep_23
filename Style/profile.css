@@ -93,6 +93,7 @@ nav {
 
     .menu-bar {
         display: block;
+        margin-right: 1rem;
         /* Show the menu bar */
     }
 
