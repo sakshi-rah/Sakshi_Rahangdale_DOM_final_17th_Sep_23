@@ -229,7 +229,7 @@ nav {
     border-radius: 13px 13px 0 0;
 
     display: flex;
-    background: url("./../Images/orders.jpg") no-repeat center center;
+    background: url("./../Assets/orders.jpg") no-repeat center center;
     background-size: cover;
 }
 
@@ -535,7 +535,7 @@ input:hover {
 /*footer*/
 
 .footer-container {
-    background-image: url('./../Images/login-signup.jpg');
+    background-image: url('./../Assets/login-signup.jpg');
     background-size: cover;
     background-position: center;
     height: auto;

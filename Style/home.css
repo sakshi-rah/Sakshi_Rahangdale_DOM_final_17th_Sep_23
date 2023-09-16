@@ -205,7 +205,7 @@ nav {
 
 /*home page*/
 .hero {
-    background-image: url('./../Images/restaurant-image.jpg');
+    background-image: url('./../Assets/restaurant-image.jpg');
     background-size: cover;
     background-position: center;
     height: 600px;
@@ -863,7 +863,7 @@ section {
 /*footer*/
 
 .footer-container {
-    background-image: url('./../Images/login-signup.jpg');
+    background-image: url('./../Assets/login-signup.jpg');
     background-size: cover;
     background-position: center;
     height: auto;

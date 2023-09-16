@@ -229,7 +229,7 @@ th {
 /*footer*/
 
 .footer-container {
-    background-image: url('./../Images/login-signup.jpg');
+    background-image: url('./../Assets/login-signup.jpg');
     background-size: cover;
     background-position: center;
     height: auto;
