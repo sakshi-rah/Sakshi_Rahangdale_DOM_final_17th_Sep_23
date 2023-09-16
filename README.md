@@ -10,8 +10,7 @@ But it's not just about the food it's about the experience. Our friendly and att
 #### Our Project live hosted link: https://eduonixjsproject.netlify.app/
 
 
-**My thoughts about creating project**
-
+**My thoughts about creating project:**
 *When I was creating this website I learned more concepts like how to link pages, which property is suitable for any page, and especially Js-Dom concepts and I really enjoyed this project*.
 
 ## Landing Page
