@@ -1,56 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./../Style/profile.css">
-    <title>Customer Profile</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./../Style/profile.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Customer Profile</title>
 
-</head>
-<body>
-    <header>
-        <h1>Customer <span
-            style="color: rgb(245, 197, 41);">P</span>rofile 
-        </h1>
-    </header>
-    <div class="container">
-        <div id="customer-info">
-            <h2>Customer Information</h2>
-            <p><strong>Name:</strong> Sakshi Rahangdale</p>
-            <p><strong>Email:</strong> rahangdalesakshi2@gmail.com</p>
-            <p><strong>Phone:</strong> +91 1234-5689-27</p>
-            <p><strong>Address:</strong> 441912 Tumsar
-                Bhandara, Maharastra,
-                India</p>
+    </head>
+    <body>
+
+        <!--Navbar started-->
+        <header>
+            <nav id="navbar">
+                <div class="app_name">The-<span
+                        style="color: rgb(245, 197, 41);">K</span>itchen</div>
+                <ul class="items">
+                    <a href="./../index.html">Home</a>
+                    <a href="./../index.html">Reservation</a>
+                    <a href="./menu.html">Menu</a>
+                    <a href="./order.html">Orders</a>
+                    <a href="./../index.html">About</a>
+                    <a href="./../index.html">Contact</a>
+                    <p class="user"><span
+                            style="color: rgb(245, 197, 41);">H</span>i, <a
+                            href="./Pages/profile.html">
+                            <span id="user-name">User👋</span></a>
+                    </p>
+
+                </ul>
+                <div class="menu-bar">
+                    <div class="hamburger"><i class="fa-solid fa-bars"></i></div>
+                </div>
+
+                <button class="btn"><a href="./Pages/login.html">Login</a></button>
+            </nav>
+        </header>
+
+        <header>
+            <h1>Customer <span
+                    style="color: rgb(245, 197, 41);">P</span>rofile
+            </h1>
+        </header>
+        <div class="container">
+            <div id="customer-info">
+                <h2>Customer Information</h2>
+                <p><strong>Name:</strong> Sakshi Rahangdale</p>
+                <p><strong>Email:</strong> rahangdalesakshi2@gmail.com</p>
+                <p><strong>Phone:</strong> +91 1234-5689-27</p>
+                <p><strong>Address:</strong> 441912 Tumsar
+                    Bhandara, Maharastra,
+                    India</p>
+            </div>
+            <div id="history">
+                <h2>Order History</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Customer Id</th>
+                            <th>Date</th>
+                            <th>Item</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2</td>
+                            <td>2023-09-15</td>
+                            <td>Pizza</td>
+                            <td> ₹260</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>2023-09-10</td>
+                            <td>Burger</td>
+                            <td> ₹220</td>
+                        </tr>
+                        <!-- Add more rows for order history -->
+                    </tbody>
+                </table>
+            </div>
         </div>
-        <div id="history">
-            <h2>Order History</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Customer Id</th>
-                        <th>Date</th>
-                        <th>Item</th>
-                        <th>Total</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>2</td>
-                        <td>2023-09-15</td>
-                        <td>Pizza</td>
-                        <td> ₹260</td>
-                    </tr>
-                    <tr>
-                        <td>6</td>
-                        <td>2023-09-10</td>
-                        <td>Burger</td>
-                        <td> ₹220</td>
-                    </tr>
-                    <!-- Add more rows for order history -->
-                </tbody>
-            </table>
+
+        <!--Footer secrion-->
+        <div class="footer-container">
+            <h1>The-<span
+                    style="color: rgb(245, 197, 41);">K</span>itchen Restaurant</h1>
+            <div class="footer">
+
+                <div class="links">
+
+                    <h2>Quick-Links</h2>
+                    <br>
+                    <div class="sub-links">
+                        <a href="./../index.html" class>Home</a>
+                        <br><br>
+                        <a href="./../index.html" class>Reservation</a>
+                        <br><br>
+                        <a href="./menu.html" class>Menu</a>
+                        <br><br>
+                        <a href="./order.html" class>Order</a>
+                        <br><br>
+                        <a href="./../index.html" class>About</a>
+                    </div>
+                </div>
+
+                <div class="links">
+
+                    <h2>Category</h2>
+                    <br>
+                    <div class="sub-links">
+                        <a href="./menu.html">Veg</a>
+                        <br><br>
+                        <a href="./menu.html">Non-veg</a>
+                        <br><br>
+                        <a href="./menu.html">Fast food</a>
+                        <br><br>
+                        <a href="./menu.html">Desserts</a>
+
+                    </div>
+                </div>
+
+                <div class="links">
+
+                    <h2>Contact Info</h2>
+                    <br>
+                    <div class="sub-links">
+                        <a href>+91 1234-5689-27</a>
+                        <br><br>
+                        <a href="https://mail.google.com/mail/u/0/#inbox"
+                            target=" ">thekitchen@gmail.com</a>
+                    </div>
+                </div>
+
+                <div class="links">
+
+                    <h2>Subscribe For Latest Updates</h2>
+                    <br>
+                    <input type="email" placeholder="Enter Your mail"
+                        class="links-email">
+
+                    <br><br>
+
+                    <div class="buy-now-btn">
+                        <button class="subs">Subscribe</button>
+                    </div>
+
+                </div>
+
+                <div class="social-menu">
+
+                    <ul>
+                        <li><a href="https://github.com/sakshi-rah"
+                                target="_blank"><i
+                                    class="fab fa-github"></i></a></li>
+                        <li><a
+                                href="https://www.linkedin.com/in/sakshi-rahangdale-61a68a221/"
+                                target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://www.instagram.com/"
+                                target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a
+                                href="https://www.facebook.com/sakshi.rahangdale.9699/"
+                                target="_blank"><i class="fab fa-facebook"></i></a></li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div style="text-align: center; font-size: 1.3rem;">
+                Copyright © 2021-23 <span
+                    style="color: rgb(245, 197, 41);">S</span>akshi Rahangdale
+            </div>
+
         </div>
-    </div>
-</body>
+    </body>
 </html>
