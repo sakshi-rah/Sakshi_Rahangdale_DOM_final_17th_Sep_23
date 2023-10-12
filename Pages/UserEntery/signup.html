@@ -115,7 +115,30 @@
                 passwordSuccess.textContent = "Password verified";
             }
 
+            //users details
+            function save() {
+                const username = document.getElementById("username").value;
+                const phoneNo = document.getElementById("phoneNo").value;
+                const email = document.getElementById("email").value;
 
+
+                fetch("http://localhost:4000/users", {
+                    method: "POST",
+                    body: JSON.stringify({
+                        "id": id,
+                        "name": username,
+                        "email": email,
+                        "phone": phoneNo
+                    }),
+                    headers: {
+                        "content-type": "application/json"
+                    }
+
+                })
+                    .then((resp) => alert("Data Saved"))
+                    .catch((err) => console.log(err));
+
+            }
 
         })
     </script>
