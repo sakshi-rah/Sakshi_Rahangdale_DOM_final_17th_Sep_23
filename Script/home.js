@@ -8,7 +8,7 @@ hamburger.addEventListener('click', () => {
     navLinks.classList.toggle('active');
 });
 
-//user name js
+//user name js , profile
 document.addEventListener("DOMContentLoaded", function () {
     const userName = document.getElementById("user-name");
 
@@ -24,6 +24,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 
+    let username = document.getElementById("username");
+    let email = document.getElementById("email");
+    let password = document.getElementById("password");
+    let phone = document.getElementById("phone");
+
+
+    fetch("http://localhost:4000/users", { method: "GET", })
+        .then((rep) => rep.json())
+        .then((data) => {
+            username.innerHTML = `${data.name}`,
+            email.innerHTML = `${data.email}`,
+            password.innerHTML = `${data.password}`,
+            phone.innerHTML = `${data.phone}`
+        })
+
 
 //Reservation
 function reserveTable() {
@@ -37,6 +52,6 @@ function reserveTable() {
             alert(`Reserve Table successfully for ${people} peoples 🥳! Enjoy Your date 🎉`)
         }
     })
-   
+
 }
 

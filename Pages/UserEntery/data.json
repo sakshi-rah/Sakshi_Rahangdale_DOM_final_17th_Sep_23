@@ -4,6 +4,14 @@
       "id": 19,
       "name": "rahul",
       "email": "rahul2@gmail.com",
+      "password": "rahul@123",
+      "phone": 1155663385
+    },
+    {
+      "id": 33,
+      "name": "sakshi",
+      "email": "sakshi2@gmail.com",
+      "password": "sakshi@123",
       "phone": 1155663385
     }
   ]

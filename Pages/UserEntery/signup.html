@@ -16,6 +16,7 @@
         <a href="./../../index.html"> <i class="fas fa-xmark xmark"></i></a>
         <h1>Sign <span style="color: rgb(245, 197, 41);">U</span>p</h1>
         <p>Please fill in this form to create an account!</p>
+
         <form id="registrationForm">
             <label for="username">Username</label>
             <input type="text" id="username" name="username" placeholder="Enter Your Username" required>
@@ -120,6 +121,7 @@
                 const username = document.getElementById("username").value;
                 const phoneNo = document.getElementById("phoneNo").value;
                 const email = document.getElementById("email").value;
+                const password = docum.getElementById("password").value;
 
 
                 fetch("http://localhost:4000/users", {
@@ -128,6 +130,7 @@
                         "id": id,
                         "name": username,
                         "email": email,
+                        "password": password,
                         "phone": phoneNo
                     }),
                     headers: {
@@ -135,12 +138,13 @@
                     }
 
                 })
-                    .then((resp) => alert("Data Saved"))
+                    .then((resp) => console.log("Data Saved"))
                     .catch((err) => console.log(err));
 
             }
 
         })
+        
     </script>
 </body>
 

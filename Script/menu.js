@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         
     } else {
         // If the user is not logged in, redirect to the login page.
-        window.location.href = "./../Pages/login.html";
+        window.location.href = "./../Pages/UserEntery/login.html";
     }
 
     // Handle logout
