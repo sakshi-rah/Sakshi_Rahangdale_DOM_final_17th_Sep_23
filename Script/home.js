@@ -8,7 +8,7 @@ hamburger.addEventListener('click', () => {
     navLinks.classList.toggle('active');
 });
 
-//user name js , profile
+//user name js 
 document.addEventListener("DOMContentLoaded", function () {
     const userName = document.getElementById("user-name");
 
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 });
-
+// profile details
     let username = document.getElementById("username");
     let email = document.getElementById("email");
     let password = document.getElementById("password");
@@ -33,11 +33,13 @@ document.addEventListener("DOMContentLoaded", function () {
     fetch("http://localhost:4000/users", { method: "GET", })
         .then((rep) => rep.json())
         .then((data) => {
-            username.innerHTML = `${data.name}`,
-            email.innerHTML = `${data.email}`,
-            password.innerHTML = `${data.password}`,
-            phone.innerHTML = `${data.phone}`
+            console.warn(data)
+            username.innerHTML = `${data[0].name}`,
+            email.innerHTML = `${data[0].email}`,
+            password.innerHTML = `${data[0].password}`,
+            phone.innerHTML = `${data[0].phone}`
         })
+
 
 
 //Reservation
